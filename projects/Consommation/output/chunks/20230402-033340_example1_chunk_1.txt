@@ -1,0 +1,84 @@
+The authors of the document have worked on a variety of topics, including collective intelligence and energy issues.
+- The challenges between collective intelligence and energy are reciprocal.
+- Intelligence is a capability that allows one to understand the world and act accordingly.
+- The collection, processing, and use of data are areas where intelligence is essential. Physical and technological limits imposed by Moore's law have led to the emergence of new information technology architectures such as FOG computing, edge computing, and IOT.
+- Digital infrastructure is confronted with high bandwidth problems, saturated networks, and ever-growing consumer demand.
+- Security and system resilience are important aspects of digital systems' longterm sustainability. "Some studies have announced disasters" - "a group consisting of businesses, organizations involved in policymaking but prophets of doom overstate their power: they do not seek or public powers." - "The problem remains but our research shows that it is less in application sectors than in analyzing the techno The digital revolution is changing the value chains. 
+- The energy consumption of digital technologies is stable, because the efficiency of information and communication technologies is good. 
+- France and Europe are facing a double problem: mastering the entire chain of the digital world and that application sectors have the competent personnel to design and use the digital technology in their products. 
+- Technologies have improved a lot - predictions about catastrophic consequences like those made by Forbes in 1999, according to which half of American electricity production would be consumed by the digital economy and Internet. In reality, these predictions are difficult to make, as they depend on how quickly demand changes, how efficient information and communication technologies are, and how they are used. There are big differences between methods and assumptions depending on which organization does the forecasting. Extremist results come from simplified models. For example, for data center consumption (server farms), these models give results that are two times higher than what is likely (200-350 TWh). 
+- The situation will be modified by continued growth in needs and emerging technologies (5G, Internet of Things, artificial intelligence [AI], machine learning [ML], blockchain,...). To contain energy consumption and emissions levels will require a significant investment in order to achieve this goal The energy consumption of digital technologies is an important issue, as it has an impact on the environment. 
+- 2030 scenarios vary, but all assume a decrease in electric energy consumption for digital technologies. 
+- Reducing electric technology energy consumption is difficult because the technologies using a lot of electricity are not yet measuring-capable. 
+- The carbon footprint is a measure of environmental impact of an object. It depends on the type of energy used to produce that object and its storage. 
+- Intelligent objects (IoT) represent a significant energy consumption in terms of production and storage. They are often manufactured outside of Europe, limiting possible actions against them. 
+- Progress in durability reduces their manufacturing's environmental impact. In addition, it is necessary to promote repair and recycling. 
+- Regulations and standards exist for planned obsolescence, water management laws regulating wasteful use, and traffic growth will continue at an increasing rate The impact of digital technology on the world economy has been a matter of debate for some time.
+- There are two main schools of thought when it comes to the impact of digital technology on the world economy: those who believe that it will have a positive effect and those who believe that it will have a negative effect.
+- The main reason for this disagreement is because there is no clear evidence as to which side is right.
+- The 40% contribution made by digital technology to global GDP growth is based on estimates from different sources, with different predictions as to how productivity gains will be used.
+- It has been suggested that processors are thermodynamic machines that use energy in order to decrease entropy (a measure of disorder) in a system or equivalent amount, by cooling it down. 
+- Dual processor machines were first developed by Szillard (1929). In terms of thermodynamics, this suggests that processors can be seen as refrigeration systems whose efficiency is determined by a performance coefficient. This coefficient can be useful for calculating the service thermodynamic yield provided by digitization at the end of an elementary cycle of operation. 
+- To achieve optimal performance for the following calculation, its cycle of operation "closes" with a mechanism called an erase cycle (Landauer's paradigm4), which allows us to bring back the value obtained from information acquisition at energy expenditure allocated to electronic logic circuits polarization. Spintronic or electronical spin control over information using magnetic fields and current flow through electrons has been proposed as an alternative approach for controlling information in modern computers Koomey is an extrapolation of Moore's law which describes the evolution of the number of computers relative to the number of users.
+- The limits to Moore's law are described below: first signs of exhaustion start appearing around 2000-2010, and it is essential to push these limits in order to maintain the increase in the number of computers.
+- One possible solution would be slow ramping of polarization or conserving intermediate steps in calculation so that "rewinding" the entire calculation can recover energy associated with erase processes. Quantum computers are characterized by their "state," which is represented by an immobile vector on a unit sphere.
+- The limits imposed by dissipated power and allowable integration density become increasingly complex as miniaturization efforts progress. The quantum is an approach that allows for calculation of several states at once without going through additional steps.
+-The quantum calculation is energy-intensive, as it requires significantly fewer steps than traditional calculation.
+Oracle was able to change the sign of the coefficient today. 
+From the subscriber who originally had the phone number given to them, there remains then to apply a series of Le calcul quantique permettrait théoriquement de : -factoriser de très grands nombres (cryptography: algorithm of Shor) ; d’être inversé (suite de l’algorithme de Grover). -trouver la configuration d’ énergie minimum L’état du système est alors “presque à coup sûr” d’une molécule complexe en chimie ou l’état recherché. Pour avoir une certitude, il convient en biologie ; de refaire une seconde fois la même opération •optimiser des systèmes très complexes : ou de la faire en parallèle sur deux ordinateurs logistique, finance, réseaux de toutes sortes, quantiques identiques. 10 bits = 1 byte
+- A computer with 10 bits of memory can hold 1024 different values
+- With more bits, the computer can store more information
+- Traffic, or throughput, expressed in simultaneous messages. This is related to the calculation method and system organization. Operations that require great power can only be handled on supercomputers, or at least group of calculators: 
+- a part of traffic is the communication of these calculators with terminals, phones, communicators...; 
+- another is the consequence of using a distributed algorithm like blockchain, which wants to substitute central validation by user validation itself; 
+- another is streaming video. It grows with the definition of images. Must we exceed 4K? 16INFRASTRUCTURES The term "Edge Computing" refers to the ability of organizations to perform complex tasks online without having to set up an infrastructure specifically for this purpose.
+-The FOG (Fog Computing) architecture is a way of supporting applications and services in a specific context, which can also lead to improved energy consumption.
+-Edge computing offers significant benefits for performance and energy efficiency. Parallelism can be implemented at different levels: 
+- processors; 
+- integrated circuits that can now group up to a few hundred processors (Americans call these sockets); 
+- servers where several "sockets" can coexist; 
+- large systems such as supercomputers or cloud systems, which host hundreds of servers in local network. 
+Most software exists in sequential or weakly parallel form. To take advantage of parallelism, programs must be rewritten and problem solving methods reworked for sequential programs (algorithms). When deploying models on volume of data, it is necessary to create public and private data types clouds.
+-It is also important to estimate the consumption of services.
+-To model a physical system, taking into account the various uses of all components distributed allows for.
+-The theoretical calculations are wrong in adjusting the choice of physical precision. More due to the piling up of material layers it will be high, resulting in a better model that reflects reality better.
+-It is important to understand how (for example, degradation this energy consumption as well as its system performance, etc…) but longer resolution time to be able to conceive systems will be useful tools. The energy system is complex and communication between sectors is essential.
+- There is a need for harmonized regulatory approach in the EU; the NIS 2.0 initiative is a step in the right direction.
+- Cybersecurity risks associated with an intense and real-time digital network are important and need management.
+- A cyber-certification system for decentralized control (such as Edge to Cloud) will add value but also pose new potential cybersecurity vulnerabilities.
+- Today, due to great industrial diversity, cybersecurity issues are only touched on in academic training. There is an investment needed for theoretical and practical training. Industrial cyber security is a major issue for France
+- The French have the potential to fill the digital transformation value chain. 
+- Industry is mobilized on issues of consumer electronics consumption. 
+- The CEA-LETI is extremely motivated to work on these topics. 
+- To do this, it has proposed a plan with 9 axes. 
+- The CEA-LETI is in charge of the scientific and technological strategy for renewable energy sectors as well as for fossil fuel sectors. 
+- 90% of world energy consumption comes from objects that are intelligent (IoTs). 
+- Processor traffic will grow significantly in the future. Low power memory (5G, IoTs) allows for multiple information exchanges. 
+- Comparison criteria used to estimate that 50 ZB by 2025 and 500 ZB by 2025 would represent a significant power level are speed of writing, endurance and programming capability. 
+- Edge computing technology enables microcontrollers to use data produced locally. Edge computing is an approach to handling artificial intelligence that resides near data to reduce latency Data centers are electro-intensive, meaning they use a lot of energy.
+-Data centers are growing rapidly because they allow businesses to store and process data more quickly.
+-By 2020, the EU has the goal of making all data centers climate neutral.
+-In recent years, more efficient LED lights have replaced lamps with low energy efficiency.
+-The development of supercalculators will help achieve this goal over time. The goal for 2030 is to have 100% of the energy used be carbon-free, with a power output up to 200 tonnes.
+-Each component has freedom to choose its own energy mix. And already produces extreme heat, up to 300 watts at peak output by 2025 (for today's servers and 800 watts within two years).
+-Up to 10 million hearts can be installed in order to reach one of the green computing routes: tying consumption to today's power production capabilities or creating a petaflops (1015 operations per second) using special French hardware. in 2025, 30% less CO2 emissions than in 2015 primarily due to increased dialogue with its clients; this may be done through building a factory in Europe.
+- at the European level, attention is being paid to developing systems that are 
+NOTES: 
+- energy production is increasingly being digitized, with consumers having the assurance that their green or non-green energy is traced. The digitalization of the energy sector has had a number of important contributions, including facilitating the passing through the current crisis by expanding activities beyond traditional boundaries.
+-One of the most significant contributions has been in terms of impact on the business étendue; it has facilitated passing through the current crisis by expanding activities beyond traditional boundaries. This is particularly evident in terms of digitalization’s contribution to industrial levels (supervision, maintenance, optimization of the entire network), but also in creating a platform for distribution.
+-Another significant contribution has been in terms of security; it has made it easier for RTE to secure its participants and facilitate its work with industrial sectors, personnel and public authorities. In addition, edge computing is likely to lead to a more responsible approach to energy management as it allows for local operations.
+-The demand for cybersecurity is at European level and takes into account different aspects such as sunlight and wind power. The electrical network costs €7 billion more than traditional investments due to the need for automation.
+-The electric transport infrastructure behaves like a three-pillar infrastructure: voltage, current on each line and global frequency of the network.
+-Automation can erase production at EnR and allow other problems to be addressed. The use of electronic injection in modern cars has begun to occur with rare events.
+-The processors that manage the driving of autonomous cars are based on neuromorphic technology.
+-This technology has a significant gain over traditional mechanical engines, increasing by 15%.
+-Other advances include the installation of 5 lidars (a type of radar), 6 radars, and 27 cameras.
+-However, this increase in capability has not prevented a rise in emissions levels across Europe. The importance of cost and efficiency when designing aircraft is a priority for Airbus.
+-The need for calculations is more important than the need for reconnaissance of form.
+-Digital technologies have a positive impact on the carbonization of aviation traffic. The project's goal is to create a digital model that can be shared in real time to ensure compliance between design and regulations.
+-The twin digital technology allows modeling of building behavior in response to energy consumption. The article discusses the pros and cons of energy consumption in a digital age. 
+-The main benefits of transitioning to a digital age include reducing energy consumption and improving efficiency. 
+-However, there are also some negative consequences to this transition, such as increased prices for energy. The challenges facing European telecommunications systems include energy consumption and concentration of actors. -The development of neural networks and memory is a priority for TEC. The document presents the different projects Europe in terms of digitalization. -The EU's digital policy objectives are detailed. -France is the only European country to be classified as a global leader in terms of computer power. Airbus operates on the entire electricity production chain, from power plants to assembly plants. -Computer use for calculation and management traffic has allowed Airbus to maintain control over its Skyways platform. -The introduction of twin digital (BIM) will fundamentally change professional aspects distribution electricity. Energy providers and data constitute an important issue for society as a whole. -Problems encountered by operators and local governments relate to data standardization and autonomy of digital systems. France has advantages, for example, as a result of a global measure. -Research presence on the entire telecommunications chain is necessary, for example, in the field of digital algorithms. •Push forward the European processor initiative, in particular distributed algorithms, with the goal of achieving 65-70% energy consumption by 2030 (where it is already evident that European supply; amount of peer-to-peer exchanges like those 
+NOTES: The Euro HPC initiative is working on algorithms for bitcoin
+- This is not generalizable, and would require a lot of coordination between national rules-makers
+- A global understanding of how many different types of data are being processed will help optimize the whole system's cost-performance

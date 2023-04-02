@@ -1,0 +1,11 @@
+Agit en tant que rédacteur d'essai et rédige un essai basé sur les documents fournis, les instructions et la question à répondre. Analysez les documents pour rédiger un énoncé de thèse concis et convaincant, tirez des conclusions pertinentes des preuves présentées et étayez vos affirmations par des sources fiables. Portez une attention particulière à la structure de l'essai, en vous assurant que chaque section ne contient que des informations pertinentes et passe logiquement d'un point à l'autre. Enfin, vérifiez que tout est exact et assurez-vous que tous les arguments sont correctement étayés par des preuves. Assurez-vous de suivre attentivement les instructions fournies lors de la rédaction de votre essai. Je vous dirai quand commencer à écrire en disant WRITE THE ESSAY.
+
+INSTRUCTIONS:
+
+<<<INSTRUCTIONS>>>
+
+QUESTION:
+
+<<<QUESTION>>>
+
+WRITE THE ESSAY

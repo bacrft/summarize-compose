@@ -1,0 +1,51 @@
+Le taux d'équipement en smartphones des ménages a dépassé le taux d'équipement en ordinateurs. 
+-Le numérique a envahi notre vie quotidienne et entraine une croissance incontrôlée de nos usages et de leurs impacts, à tel point que 44 % des français considèrent le numérique comme une menace pour l'environnement. 
+-Dans les faits, le numérique est responsable de l'émission de 4 % des gaz à effet de serre (GES) à l'échelle mondiale. 
+-La forte augmentation des usages laisse présager un doublement de cette empreinte carbone globale d’ici 5 ans. 
+-Le phénomène est d’autant plus prégnant localement que l’ économie nantaise s’est fortement tertiarisée, avec une croissance importante de l’emploi dans les services informatiques ces dernières années. 77 % des Français ont un smartphone et 8 % d’entre eux disposent d’un ordinateur. 
+- La croissance du secteur économique du numérique est portée notamment par le secteur de l’hébergement de données. 
+- Au niveau national, on estime que 20 % de la croissance du salariat est liée au numérique sur la métropole nantaise depuis plus de 5 ans. Le numérique est responsable de 50 % des émissions de gaz à effet de serre (GES) imputables au monde. 
+-Le secteur du numérique est largement délocalisé et donc la pollution est largement déplacée. 
+-La consommation d’énergie électrique constitue la seconde source de pollution après les terminaux eux-mêmes. Les volumes d’électricité produite et consommée devant être équilibrés, le numérique aura aussi un impact différent selon les périodes d’usages au cours de la journée. 
+- Les logiques techniques et temporelles de production de chacune des sources d’électricité ont une incidence sur l’empreinte carbone finale de nos usages numériques. 
+- Se réapproprier localement des consommations mondiales liées à nos usages digitaux : une tentative vaine ? Le numérique est responsable de 4 à 6 % des émissions de gaz à effet de serre (GES) à l’échelle mondiale.
+-C’est 10 fois moins responsable que les activités physiques qui produisent les externalités liées aux déplacements.
+-Le développement des usages énergétiques plus efficaces induit une augmentation de la pollution précédente génération.
+-D’ici 2040, le numérique pourrait être responsable de 8 % des émissions de GES en France. 13% de l’industrie manufacturière est consacrée aux usages du numérique ;
+- La croissance des usages du numérique est non maîtrisée et atteint 30% par an ;
+- Les innovations pour l’efficacité énergétique ne compenseront pas la folle envolée des consommations ;
+- Les leviers de la sobriété numérique et de la production d’énergies décarbonées restent les seuls moyens pour atteindre une diminution significative des émissions liées au numérique. Les auteurs soulignent les risques associés aux solutions « smart ».
+- Les collectivités doivent choisir entre différents types d’infrastructures informatiques.
+- La gestion publique des équipements numériques est essentielle pour limiter les conséquences de la crise énergétique. L'urgence et sous la contrainte de la crise sanitaire, la classe à distance a fait sa percée au printemps 2020.
+- Mais la prise en compte de l'impact environnemental dans les acquisitions d'équipements reste balbutiante pour les administrations.
+- Avec le confinement, la question s'est posée pour les Départements d'équiper tous les collégiens de tablettes pour limiter le décrochage scolaire. 
+- Le Département de Loire-Atlantique a décidé de doter uniquement les collégiens défavorisés car il n'était pas nécessaire d’équiper les foyers déjà pourvus. 
+- Un choix pris dans un contexte d'urgence à agir et guidé par des facteurs budgétaires et environnementaux. 
+- Pour aller plus loin, la collectivité travaille depuis plus d’un an sur l’optimisation de son parc en intégrant des critères environnementaux dans ses marchés publics et en faisant par exemple l’acquisition de matériel en plastiques recyclés. 
+- Maîtriser l’obésité numérique des services publics Le processus de dématérialisation, engagé depuis plus de 10 ans dans les services publics, génère un besoin de stockage croissant. Les nouveaux services de la donnée, au premier rang desquels figurent les démarches d’open data, viennent contribuer encore davantage. Le corollaire : les hangars comme les poubelles à « données urbaines » grossissent à vue d’œil. Le Département met en place un système de notation qui prend en compte le critère environnemental pour tendre vers des projets plus sobres.
+- Les offres privées, qui se démultiplient, portent la croissance annuelle du marché mondial de la ville intelligente à plus de 18 % d’ici 2025.
+- Éclairage connecté, surveillance, capteurs en tout genre pour la maintenance des réseaux sont autant de solutions visant une gestion augmentée de la ville.
+- Pourtant, elles questionnent peu leurs conséquences sur l’environnement. Or ce sont les arbitrages techniques et organisationnels qui influencent le volume de données produites et stockées. Le taux d'équipement en smartphone dépasse pour la première fois le taux d'équipement en ordinateur. 
+-Si 88% des Français disposent d'un accès à internet, un Français sur deux dit avoir été suffisamment informé sur les impacts du numérique. 
+-Le législateur a obligé les fournisseurs d'accès à internet et les opérateurs mobiles à communiquer l'empreinte carbone de nos activités numériques à compter de janvier 2022.
+-Intérêt de l’organisation locale du cycle de vie des équipements numériques du territoire : volume d’appareils, fréquence de renouvellement, existence de filières de réemploi ou recyclage. Les acteurs du numérique sont les principaux responsables de la hausse des émissions de gaz à effet de serre. Ils doivent compenser ces usages.
+- Les collectivités locales ont un rôle important dans l’accompagnement du secteur numérique, notamment en matière d’aides à l’efficacité énergétique et de planification urbaine. 31% des usages du numérique se font dans les villes en Europe.
+- 5% des émissions de gaz à effet de serre proviennent du secteur numérique.
+- Les politiques publiques locales ont un impact majeur sur les déplacements et les consommations d’énergie. Le document est court et propose des recommandations pour éviter les situations d'enfermement technologique.
+-L'enjeu est de taille : éviter de se retrouver dans des situations d'enfermement technologique comme on peut se retrouver aujourd'hui pris dans un modèle urbain structuré autour de la voiture.
+-Il n'est évidemment pas question ici de rejeter la technologie, mais bien plus de ne pas avoir une foi aveugle dans ses bénéfices et de prendre aussi en compte ses coûts.
+-L'évaluation environnementale des projets numériques apparait donc centrale.
+-La mise en place d'une méthode dédiée aux projets « smart » est l'unique recommandation désignant clairement les collectivités dans le rapport de la mission d’information du Sénat de juin 2020.
+-Le dernière publication du think tank « The Shift Project », communiquée en octobre 2020, s’attache aussi à proposer une méthode pour analyser la pertinence énergétique des projets numériques des territoires.
+-Tout reste encore à faire dans ce domaine : comparaison de solutions alternatives, définition d’indicateurs environnementaux ou encore analyse du cycle de vie. La collectivité dispose d'une expertise en maîtrise d'ouvrage, garante de l'intérêt général et du bien commun 
+- Les stratégies territoriales dédiées à la maîtrise de nos usages doivent réserver une place plus importante aux enjeux locaux du numérique "illectronisme" : terme désignant l'utilisation quotidienne et massive du numérique, notamment en termes de communication, de travail et de loisirs.
+- "levier de la sensibilisation" : outil utilisé pour changer les comportements d'un individu ou d'un groupe à un moment donné.
+- "enjeu de l’étalement urbain" : problème qui se pose quand une ville s’étend trop rapidement et met ainsi en danger les espaces naturels proches.
+- "usages numériques" : tout ce qui est lié au numérique (ordinateurs, smartphones, tablettes...) « Près de trois-quarts des Français accepteraient de payer un supplément tarifaire pour que leur ordinateur consomme moins d’électricité ou pour que leur équipement puisse être recyclé plus facilement. Parmi ces derniers, 80 % sont aussi prêts à modérer leurs pratiques »
+- « Les territoires ont jusqu’ici subi les usages du numérique. Cela a été le cas avec l’arrivée des plateformes, comme Waze, Airbnb ou Uber, devenues aujourd’hui incontournables. Les efforts d’efficacité énergétique produits par les acteurs du numérique ne sauront pas compenser l’accroissement gigantesque de nos usages numériques. Les territoires peuvent-ils reprendre la main sur ce qui est souhaitable en termes d’usages numériques par le biais de l’argument environnemental ? Pour se donner un objectif de réduction de cet impact, il faut d’abord savoir d’où l’on part. Le diagnostic est un préalable nécessaire à la définition d’une ambition » Les usagers et les collectivités doivent élaborer une cartographie des lieux de stockage et des ressources mobilisées par les usagers.
+- Il est essentiel de trouver une place à l’enjeu de l’impact de nos usages numériques dans les schémas d’aménagement existants.
+- Il est nécessaire d’évaluer plus systématiquement l’impact environnemental des solutions numériques en comparaison des pratiques actuelles.
+- La question pourrait se poser à l’avenir si contraindre les usagers n'est pas à l'ordre du jour. Rédige des notes concises sur le document suivant.
+
+- Le numérique est un enjeu énergétique pour les territoires.
+- Les datacenters, ou l’impossible frugalité numérique ?

@@ -1,0 +1,38 @@
+La « révolution numérique » est une poussée considérable du numérique dans nos sociétés, qui a des effets sur les équipements électroniques et les usages en général.
+- Elle entraîne une forte consommation d’énergie pour l’utilisation des appareils électroniques, notamment leurs batteries.
+- Les promesses de développement durable du numérique ne sont pas encore vérifiées.
+- Les impacts sur l’environnement liés au numérique sont nombreux et complexes. La « révolution numérique » est décrite comme une évolution importante dans les usages des données informatisées, qui ont changé considérablement au cours des dernières années.
+- Les trois grandes catégories de dispositifs en contact avec les utilisateurs sont les appareils terminaux (ordinateurs, tablettes, smartphones), les serveurs et appareils de stockage de données (data centers) et les infrastructures du réseau permettant aux données de circuler (antenne-relais, câbles, fibres, répartiteurs).
+- Selon certaines estimations, la proportion d’utilisateurs d’Internet est passée de moins de 10 % à 35 % durant la parenthèse numérique. Le volume échangé a doublé chaque année jusqu’en 2002 et continue à croître à un rythme soutenu. La possession d’un smartphone est quadruplée en France durant cinq ans. Le document est issu de decrypterlenergie.org
+- Les bullet points sont utilisés pour donner une synthèse rapide des principaux arguments avancés dans le document.
+
+- La révolution numérique est souvent présentée comme une des grandes transformations sociétales en cours, qui pourrait accompagner et favoriser la transition énergétique.
+- Pour certains, elle est le symbole d’une société toujours plus avide d’énergie, en proie à l’ébriété énergétique. L’Ademe est l’Agence de développement économique et social. 
+- 170 kWh/an correspond à la consommation électrique d’un employé pour un an. 
+- 6 TWh/an correspondent à la consommation électrique annuelle des serveurs informatiques en France. 
+- Viennent ensuite les serveurs et stockages de données externalisés dans des grands centres de données spécialisés. Des chiffres variables circulent sur leur consommation d’énergie. Une cartographie répertoriait 156 data centers en France en 2016. Les infrastructures des réseaux et télécommunications représentent environ 3,5 TWh/an de consommation d'électricité.
+- Ces chiffres sont comparables à une estimation faite pour l'Allemagne en 2012, qui indiquait que les infrastructures des réseaux et télécommunications représentaient 2,3 TWh/an de consommation d'électricité. L'énergie grise est l'énergie consommée pour la fabrication et l'extraction des matériaux qui composent les appareils électroniques, et qui est difficile à estimer car elle dépend de nombreux paramètres.
+- Des analyses de cycle de vie ont été réalisées sur certains équipements, mais avec des conclusions variables.
+- Les chiffres cités ici ne permettent donc que de premières approximations, faute d’études comparables sur le sujet.
+- Si l’on passe à un raisonnement en bilan carbone, le poids de la fabrication devient encore plus élevé, car elle a lieu essentiellement en Chine où l’électricité est encore très émettrice de gaz à effet de serre. Les appareils électroniques deviennent de plus en plus efficaces et mobiles, et l'impact de la fabrication sur leur bilan écologique est de plus en plus important.
+-Il est donc important de les rendre plus durables, réparables, réutilisables, et recyclables.
+-Les tendances lourdes du numérique vont se poursuivre à un rythme soutenu. Les appareils électroniques requièrent de l'énergie pour fonctionner.
+- Les consommations d'énergie des appareils électroniques augmentent continuellement.
+- La gloutonnerie énergétique est une tendance qui menace les réserves d'énergie. Les progrès en matière de climatisation des data centers vont se poursuivre et même s’intensifier grâce à l’adoption de réglementations de plus en plus strictes au niveau européen.
+- Les besoins en électricité liés aux usages numériques vont diminuer, voire disparaître, dans les prochaines années. 4 % par an rendent possibles des réductions de 40 % ou plus.
+-Les ménages et entreprises sont déjà très équipés, les taux d'équipement devraient donc se stabiliser.
+-Le basculement des fixes vers les portables et les progrès moyenne par -7 % par an environ -7 % par an continueront d'entrainer des gains importants.
+-L'utilisation du temps d'utilisation en hausse léger est un signe positif. Les progrès et réglementations vont entraîner des gains continus, unitaire des autres
+- Les appareils numériques augmenteront leur puissance électrique de manière significative
+- La consommation annuelle d’électricité liée aux usages numériques doublera d’ici 2030 Le numérique s'immisce actuellement dans le fonctionnement de tous les secteurs économiques, et à ce titre il a théoriquement la capacité d’entretenir les pires comportements de gaspillage énergétique comme de favoriser des comportements plus sobres.
+-Si l’on regarde les potentiels suggérés en France par une étude de 2009 commanditée par des grandes entreprises (représentant environ 110 TWh/an d’économies d’énergie primaire cumulées), on constate que la majorité des évolutions correspondantes ne se sont pas réalisées.
+-Il semble donc hasardeux d’affirmer que des effets bénéfiques ponctuels du numérique constatés sur des projets pilotes ou études de cas puissent être généralisables et se traduire en baisses de consommation d’énergie systémiques. La demande d’électricité est en forte augmentation et risque de dépasser les capacités disponibles.
+- Pour éviter cette situation, il est nécessaire de recourir aux technologies les plus économes et de prioriser les usages du numérique.
+- Les politiques publiques doivent être intensifiées pour suivre l’innovation rapide du secteur et l’apparition de nouveaux équipements.
+- Les consommateurs ont aussi un rôle important à jouer en réduisant leur consommation d’énergie. Le document présente les différents impacts environnementaux du numérique sur la société.
+- La consommation énergétique des équipements informatiques est une question importante pour les entreprises et les administrations.
+- Les données stockées dans les data centers représentent un grand potentiel pour réduire l’impact environnemental des activités liées au numérique. L'énergie est une ressource précieuse et indispensable pour notre société.
+
+- Les consommations d'énergie continuent de croître, et il est difficile de les contrôler.
+
+- L'énergie est un enjeu majeur pour la planète, et il est important de trouver des solutions pour réduire nos consommations.

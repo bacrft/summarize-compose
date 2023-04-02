@@ -1,0 +1,1568 @@
+NOTE DE SYNTHÈSE
+Énergie et Numérique :
+des défis réciproques
+LE POUVOIR DE
+L’INTELLIGENCE
+COLLECTIVE
+MAI / 2022
+LES CAHIERS FUTURIS
+Sous la présidence d’Olivier Appert, membre de l’Académie des technologies
+et de Gérard Roucairol, Président honoraire de l’Académie des technologies
+Richard Lavergne, co-président
+Denis Randet, co-président
+Mihaja Razafimbelo, rapporteur
+Clarisse Angelier, ANRT, directrice de publication2Ces travaux sont soutenus financièrement par les souscripteurs FutuRIS :
+AI CARNOT, AIR LIQUIDE, AMPIRIC - AIX-MARSEILLE UNIVERSITE, ANR, BERGER-LEVRAULT, BOUYGUES,
+BRGM, CEA, CNRS, CPU, EDF, ENGIE, FACEBOOK, GE HAELTHCARE, INSERM, INSTITUT MINES TELECOM,
+INRIA, INSTITUT PASTEUR, IRIS SERVIER, MINISTERE DE L’EDUCATION NATIONALE ET DE LA JEUNESSE,
+MINISTERE DE L’ENSEIGNEMENT SUPERIEUR, DE LA RECHERCHE ET DE L’INNOVATION, NOKIA, REGION
+PAYS DE LA LOIRE, SHNEIDER ELECTRIC, SNCF, TOTAL ENERGIES
+Le contenu n’engage que la responsabilité de l’ANRT en tant qu’auteur et non celle des institutions qui lui apportent leur soutien.
+3MEMBRES ACTIFS DU GROUPE DE TRAVAIL
+ALAIS Jean-Christophe Air Liquide
+ALVAREZ-HERAULT Marie-Cecile Ancre/INP Grenoble
+ASTIC Jean-Yves RTE
+AUVERLOT Dominique France Stratégie
+AZAIS Philippe CEA
+AZARMAHD Telman EdF
+BACHA Seddik INP Grenoble
+BAREUX Gabriel RTE
+BERTHOMIEU Nadine Ademe
+BERTIERE François Académie des Technologies
+BERTRAND Arnaud ATOS
+BONIFACE François GRDF
+BOUYER Etienne CEA
+BULLIER Guillaume CRE
+BURTIN Alain EDF
+BUSATO Guillaume RTE
+CHAILLOT Christophe Orange
+CLAUSSE Marc Ancre-Allistene/INSA Lyon
+DAUVE Sebastien LETI-CEA
+de WARREN Nicolas Uniden
+DUPONT DE DINECHIN Benoit Kalray
+FAUCHEUX Ivan CRE
+FERRASSE Jean-Henry Aix-Marseille Université
+FERREBOEUF Hugues The Shift Project
+FOURNEL Guillaume CRE
+GAME David RTE
+GELENBE Erol Académie des Technologies
+GEOFRON Patrice Université Paris Dauphine
+GILLET Guillaume Engie
+GIRAUD Guillaume RTE
+GRELLIER Christian Bouygues
+GUILLOT Françoise Safran
+HARTMANN Joël STMicroelectronics
+HAUET Jean-Pierre Comité scientifique d'Equilibre des Energies
+KAMIYA George IEA/EXD/SIO
+KHERROUF Samira Ademe
+LABRY Delphine Ministère des Armées
+LATROCHE Michel CNRS
+LEBLANC Elvire CEA
+LECAILLE Aurélien GRTgaz
+LEMOINE Fabrice Ancre/Université de Lorraine
+L'HELGUEN Eric EMBIX
+LUCCHESE Paul CEA
+MASSINES Françoise CNRS
+MAZAURIC Vincent Shneider Electric
+MAZINGAND Hervé Technip Energies
+MENTING Jos Engie
+MONCOMBLE Jean Eudes Conseil Français de l'énergie/WEC
+MONTAGNE Xavier Ministère de l'Enseignement supérieur et de la recherche
+MORTELETTE Tiphaine Leyton
+ORGERIE Anne-Cecile Ancre-Allistene/CNRS
+POSTEL-VINAY Grégoire Ministère de l'Economie et des Finances
+PRIEM Thierry CEA
+PROULT David CEA
+QUEHEN Audrey Engie
+ROCHE Nicolas Enedis
+SCHMITT Michel CGE/Ministère de l'Economie et des Finances
+SLAOUI Abdelilah CNRS
+THIBAUT Muriel IFPEN
+TISSERAND Isabelle Laposte
+VANDELAER Olivier Engie
+4SOMMAIRE
+INTRODUCTION 6
+1. ESTIMATION DE L’ÉVOLUTION DE LA CONSOMMATION D’ÉNERGIE DU NUMÉRIQUE 8
+2. LIMITES PHYSIQUES ET TECHNOLOGIQUES 12
+1 Le ralentissement de la loi de Moore 14
+2 L’ordinateur quantique 14
+3. INFRASTRUCTURES NUMÉRIQUES. ÉTAT DE L’ART ET ÉVOLUTION 16
+1 Paramètres des systèmes informatiques 16
+2 Nouvelles architectures 18
+2-1/ Le FOG computing : l’architecture nouvelle de télécommunications de la 5G 18
+2-2/ L’edge computing et les IOT, le continuum computing 18
+2-3/ La fin du processeur universel : le recours à la spécialisation et au parallélisme 19
+3 L’optimisation des systèmes 20
+4 Sécurité et résilience 22
+4. ANALYSE SECTORIELLE 24
+1 Électronique, informatique, télécommunications 24
+1-1/ Composants ; réalisations du CEA-LETI et de ST Microelectronics 24
+1-2/ Les processeurs parallèles Kalray 26
+1-3/ Les data centers ; les réalisations d’OVH 27
+1-4/ Les super calculateurs, les fabrications d’Atos 28
+1-5/ Le programme quantique 28
+1-6/ Télécommunications 29
+1-7/ Le contrôle des supply chains 29
+2 Production et transport d’électricité 30
+2-1/ Production 30
+2-2/ Optimisation amont-aval 30
+2-3/ Commercialisation et services énergétiques 31
+2-4/ Le transport d’électricité 31
+3 Automobile 33
+4 Aéronautique 34
+5 Bâtiment et aménagement 35
+5. CONCLUSION ET RECOMMANDATIONS 38
+5INTRODUCTION
+Cette note récapitule le travail 2021-2022 d’un Certaines études ont annoncé des catastrophes,
+groupe rassemblant entreprises, organismes de mais les prophètes de malheur exagèrent : ils ne
+recherche et pouvoirs publics. Ce groupe est tiennent pas compte des progrès du numérique,
+réuni depuis 2017 par l’ANRT, sous la présidence y compris dans la manière de s’en servir.
+d’Olivier Appert, en appui à la Stratégie Nationale Le problème demeure, mais nos travaux montrent
+de Recherche en Energie. Il se consacre qu’il l’est moins dans les secteurs applicatifs que
+à l’analyse des enjeux technologiques liés dans celui du numérique lui-même. Nous avons
+à la transition énergétique. Il le fait d’un point vu que la production d’électricité, l’automobile,
+de vue pragmatique, concret, correspondant l’aéronautique, le bâtiment, sont des secteurs très
+à l’expérience de ses membres. dépendants des questions énergétiques. Partout,
+le numérique est un moyen pour améliorer
+Les travaux du groupe avaient montré l’organisation du travail, la réduction de la
+l’importance des technologies du numérique, en consommation d’énergie et le fonctionnement des
+particulier pour l’organisation et le fonctionnement produits. Et un moyen nécessaire, en particulier
+du réseau électrique modifié par l’introduction dans le secteur primordial de l’électricité.
+des énergies renouvelables intermittentes. De
+façon globale, ces technologies constituent l’un Certes, si la consommation électrique est toujours
+des leviers de la lutte contre le changement un élément du prix de revient, en fabrication et
+climatique. Toutefois, dès lors que l’Accord de fonctionnement, il est intéressant de la réduire,
+Paris sur le climat implique une diminution mais ce n’est pas un point de blocage.
+des émissions de CO de -7,6% par an d’ici à En revanche, c’en est un pour l’industrie du
+2
+2050, il est impératif d’analyser l’empreinte numérique : désormais, la dissipation de chaleur
+environnementale de tous les secteurs d’activité, limite les performances, depuis les circuits
+tout au long du cycle de vie. Et le numérique intégrés jusqu’aux superordinateurs. Et comme
+n’échappe pas à cette obligation : l’extraction on ne peut plus compter sur la loi de Moore et
+et la transformation des minerais en amont, les la poursuite de la miniaturisation, il faut trouver
+consommations électriques et les émissions d’autres moyens.
+liées à la fabrication et au fonctionnement des
+équipements et des traitements de l’information, Or, ces moyens impliquent une véritable révolution.
+l’efficacité et la complétude du recyclage des En effet, il va falloir mettre en cause la séparation
+matériaux en aval du cycle sont autant de sujets traditionnelle entre la fabrication de processeurs
+de vigilance. Il est essentiel que les gains induits universels, qu’on peut acheter partout, et celle
+par le numérique ne soient pas annulés par ses des systèmes. Par exemple, l’automobile du futur
+impacts environnementaux. Le numérique est sera conçue par des constructeurs maîtrisant la
+comme le cholestérol : il y a le bon et le mauvais. conception des processeurs embarqués, et ayant
+Cette année, le groupe s’est donc intéressé accès - tout en maîtrisant leurs informations
+à la consommation d’énergie du numérique, confidentielles - à des superordinateurs capables
+problème incontestable, puisque la croissance de mettre au point les modèles d’intelligence
+du besoin en capacité de calcul et d’échanges artificielle les concernant.
+semble sans limite.
+6INTRODUCTION
+Ce qui s’annonce, c’est un bouleversement des
+chaînes de valeur. Notre travail en donne une idée
+pour quelques secteurs industriels, mais cela va
+être vrai pour tous.
+Cette révolution peut ouvrir des occasions, mais
+risque, si nous ne réagissons pas tout de suite,
+de donner la maîtrise de notre industrie à des
+pays qui maîtriseront l’interaction nouvelle entre
+l’électronique et les produits.
+La France et l’Europe font face à un double problème :
+• Maîtriser l’ensemble de la chaîne du numérique ;
+• Que les secteurs applicatifs disposent du
+personnel compétent pour concevoir -
+en liaison avec l’industrie européenne du
+numérique - le numérique utilisé dans
+la conception, le fonctionnement et la
+maintenance des matériels qu’ils produisent.
+701
+ESTIMATION
+DE L’ÉVOLUTION
+DE LA CONSOMMATION
+D’ÉNERGIE DU NUMÉRIQUE
+Le trafic Internet mondial a été multiplié par plus de 1000 entre 2000 et
+2019. Cependant, une analyse récente de l’AIE montre que la consommation
+d’énergie et l’empreinte des émissions des technologies de l’information
+et de la communication sont restées stables, car l’efficacité énergétique
+de ces technologies s’est beaucoup améliorée. Cela a démenti les
+prévisions catastrophistes, comme celle parue dans Forbes en 1999,
+selon laquelle en 2010 la moitié de la production américaine d’électricité
+serait absorbée par l’économie numérique et Internet.
+En réalité, les prévisions sont difficiles, en raison de la rapidité avec laquelle
+la demande, l’efficacité des TIC, et la manière dont on les utilise évoluent.
+Les méthodologies et les hypothèses diffèrent selon les organisations. Les
+résultats extrêmes, sur lesquels on communique beaucoup, résultent de
+modèles simplistes. Par exemple, pour la consommation des centres de
+données (data centers), ces modèles donnent des résultats plus de deux
+fois supérieurs à la fourchette probable (200-350 TWh).
+Figure 1 : Estimations de la consommation énergétique des data centers
+Source : Présentation IEA, G. Kamiya
+La donne va être modifiée par la poursuite de l’accroissement des besoins
+et par l’arrivée des technologies émergentes (5G, Internet des objets,
+intelligence artificielle et machine learning, block chain,...). Pour contenir la
+consommation et les émissions, il faudra investir de façon considérable
+dans la recherche et le développement. Et s’il faut réduire autant que
+possible leur empreinte directe, les plus grands impacts des technologies
+numériques sur les émissions proviendront de leurs applications dans
+d’autres secteurs (électricité, transport, bâtiment,...), bien que leur emploi
+puisse en fin de compte réduire la consommation et les émissions totales
+de ces secteurs.
+8En France, selon un rapport du Sénat, le numérique aurait eu en 2019
+une empreinte carbone de 15Mt, soit 2% de l’empreinte carbone du pays,
+les terminaux représentant à eux seuls 81% de cette empreinte.
+Figure 2 : Empreinte carbone 2019 du numérique en France. Source Sénat,
+mission d’information sur l’empreinte environnementale du numérique - 2020
+Des scénarios volontaristes, proposés par exemple par l’ADEME ou le
+Ministère de la transition écologique envisagent une réduction sensible de
+la consommation d’électricité du numérique d’ici 2030. Cela dépendra en
+fait de plusieurs facteurs, comme les choix faits pour la couverture de la
+5G, le développement de l’Internet des objets et celui de la localisation des
+calculs (edge computing).
+Le Conseil général de l’économie a fait une autre prévision pour 2030,
+en extrapolant les données de l’ARCEP (Autorité de régulation des
+communications électroniques et des Postes).
+Tableau 1 : Prévision 2030 : hypothèses et résultats.
+Source : « Réduire la consommation énergétique du numérique »,
+Ministère de l’économie et des finances – Décembre 2019
+9Figure 3 : Répartition de la consommation électrique
+Source : « Réduire la consommation énergétique du numérique », Ministère de l’écono-
+mie et des finances – Décembre 2019
+Une baisse globale est attendue, mais la consommation des data centers
+et des réseaux augmente sensiblement.
+Un point particulier concerne la vidéo, pour laquelle le passage à la
+résolution 4K augmenterait la consommation de 10%.
+Cependant, les mesures de la consommation énergétique sont indirectes,
+car les technologies de l’information n’ont pas été équipées pour être
+mesurées. Il faudrait y remédier.
+Un autre point est la fabrication des équipements. Elle représenterait
+aujourd’hui 40% de l’impact global du numérique. Il existe malheureusement
+peu d’études approfondies sur ce sujet, si ce n’est une étude publiée
+en 2018 par Jens Malmodin (Ericsson) et Dag Lundén (Telia Company)
+intitulée « The Energy and Carbon Footprint of the Global ICT and E&M
+Sectors 2010–2015 » d’où est extrait le graphique ci-après donnant des
+estimations de l’empreinte carbone des secteurs ICT (Information and
+Communication Technology) et E&M (Entertainment & Media) en 2015 :
+10Figure 4 : Estimations de l’empreinte carbone des secteurs ICT (Information
+and Communication Technology) et E&M (Entertainment & Media) en 2015
+Les équipements (téléphones, tablettes, ordinateurs portables, télévision)
+et plus généralement les objets intelligents (IoT) se comptent en milliards
+et ce nombre croît rapidement. Comme ils sont fabriqués en grande
+partie hors d’Europe, nous n’avons guère de moyens d’action directs,
+si ce n’est la diffusion de labels indiquant l’empreinte carbone.
+Les progrès en durabilité des équipements réduisent l’impact de leur
+fabrication. De même il convient de favoriser la réparabilité et le recyclage.
+Des réglementations et normes existent, notamment sur l’obsolescence
+programmée2. Une autre partie concerne la limitation des ressources
+consommées grâce à une loi sur l’économie circulaire.
+Le point à relever est que les données précises concernant les équipements
+et leur recyclage semblent manquer dans le domaine du numérique.
+Il s’agit d’ailleurs d’une recommandation du Conseil Général de l’Économie
+(CGE) que les organismes œuvrant dans la transition écologique (Ademe)
+définissent et publient, en lien avec les autorités de régulation des
+communications électroniques (Arcep), un corpus de données minimales
+communes (parc d’équipements et de services numériques) par secteur
+et le fassent figurer dans les bilans RSE des entreprises.
+À ce stade, nous pouvons retenir les points suivants :
+• le trafic va continuer à augmenter de façon importante ;
+• on mesure mal la consommation énergétique du numérique en raison
+d’une méthodologie évolutive et par manque de données fiables et
+exhaustives ;
+• la fabrication des équipements représenterait aujourd’hui 40%
+de l’impact global du numérique ;
+• il y a une grande divergence des projections à cause d’estimations
+différentes des gains de productivité.
+2- Article L. 213-4-1.-I. du code de la consommation : La réglementation s’applique à travers le refus de l’inamovibilité des batteries, qui
+a fait l’objet d’une directive européenne retranscrite en droit français par un décret du 10 juillet 2015, et l’obligation d’information sur la
+disponibilité des pièces détachées (article L. 111-4 du code de la consommation). 1102
+LIMITES PHYSIQUES
+ET TECHNOLOGIQUES
+POINT DE VUE THERMODYNAMIQUE
+Le lien entre énergie et information a été pour la première fois
+remarqué dans le paradoxe du Démon de Maxwell (1867). La levée
+de ce paradoxe a permis de clarifier le rôle thermodynamique des
+technologies de l’information et d’établir l’équivalence entre information
+manquante et entropie. En effet, le rôle des technologies de l’information
+est d’accroître la connaissance dont on dispose sur un système
+donné. D’un point de vue thermodynamique, cette ambition contrarie
+l’évolution naturelle d’un système isolé vers une augmentation de son
+information manquante si bien que l’on doit admettre, pour respecter
+le second principe de la thermodynamique, que le système sur
+lequel on souhaite acquérir de l’information est couplé à une source
+d’énergie noble de telle sorte que l’entropie évacuée sous forme de
+chaleur vers le thermostat est supérieure à l’information acquise sur le
+système. Le processeur est la machine thermodynamique qui réalise
+cette acquisition : pour accroître la connaissance d’un système donné
+ou de manière équivalente baisser son entropie, elle consomme de
+l’énergie noble (d’origine électrique), et la dissipe dans un thermostat
+en conservant globalement les transferts d’énergie, selon le premier
+principe de la thermodynamique. Sa machine duale étant le moteur
+de Szillard (1929), la classification thermodynamique suggère de voir le
+processeur comme une machine frigorifique dont l’efficacité est définie
+par un coefficient de performance. Ce dernier est utile pour calculer
+le service thermodynamique rendu par la digitalisation au terme d’un
+cycle élémentaire de fonctionnement. Afin de disposer du processeur
+pour le calcul élémentaire suivant, son cycle de fonctionnement se
+« ferme » sur un mécanisme d’effacement (paradigme de Landauer3)
+qui permet de rapporter la valeur de l’information acquise à l’énergie
+qui lui a été allouée par la polarisation des circuits d’électronique
+logique :
+• actuellement, le coefficient de performance atteint par la
+technologie CMOS pour affecter une mémoire tourne autour de
+10-5 ;
+• avec l’électronique de spin ou spintronique4, ce coefficient de
+performance gagnerait 2 voire 3 ordres de grandeur, même
+si cette technologie n’est pas encore capable de proposer un
+ordinateur complet.
+3- Formulé pour la première fois en 1961 par R. Landauer d’IBM, le niveau d’énergie minimal qu’il faut consentir pour effacer un bit d’information
+s’établit à kB TLn2 où kB est la constante de Boltzmann et T la température du système physique considéré. Cette valeur postulée
+empiriquement a été confirmée expérimentalement en 2012 par une équipe de l’Ecole Normale Supérieure de Lyon.
+4- La spintronique ou électronique de spin propose un contrôle de l’information sur le spin de l’électron (par application d’un champ magnétique)
+et une lecture de l’information grâce au courant de charge de l’électron.
+12LIMITES PHYSIQUES
+LOIS DE MOORE ET KOOMEY
+ET TECHNOLOGIQUES
+Depuis l’avènement de la technologie CMOS et du microprocesseur (1960), les
+progrès réalisés dans la capacité d’intégration des transistors et l’augmentation
+de la finesse de gravure ont amélioré les performances des processeurs de
+telle manière que :
+• le nombre de transistors des microprocesseurs sur une puce de silicium
+double tous les deux ans (loi de Moore, 1971) ;
+• le nombre de calculs par Joule (unité d’énergie) dépensé double tous les 18
+mois environ (loi de Koomey, 1965).
+Bien qu’il ne s’agisse pas de lois physiques, mais seulement d’extrapolations
+empiriques, ces prédictions se sont révélées exactes :
+• entre 1971 et 2001, la densité des transistors a doublé chaque 1,96 année ;
+• entre 1946 et 2009, le nombre de calculs par joule dépensé a doublé environ
+tous les 1,57 ans.
+En conséquence, les ordinateurs sont devenus de plus en plus petits
+et de moins en moins coûteux tout en étant de plus en plus rapides
+et puissants.
+Néanmoins, le paradigme de Landauer qui fixe l’énergie minimale
+qu’il faut consentir pour effacer une information élémentaire (2,80 zJ
+à la température ambiante) constitue une limite physique de la loi de Koomey dont
+l’extrapolation devrait être atteinte à la fin de la décennie 2020 avec l’architecture
+actuelle des ordinateurs. Les limites de la loi de Moore sont décrites ci-après.
+Dans les faits, les premiers signes d’essoufflement des lois de Moore et Koomey
+se manifestent depuis le milieu de la décennie 2000 – 2010.
+Afin de repousser ces limites, d’autres paradigmes de calcul ont été proposés,
+notamment en 1973 par C. Bennett d’IBM, qui s’appuient sur une distinction entre
+entropie physique et entropie computationnelle :
+• l’entropie physique est associée aux fluctuations d’un système macroscopique
+pour atteindre l’équiprobabilité de ses micro-états ; la chaleur dégagée est liée
+aux variations de ces fluctuations quand le système évolue et l’irréversibilité est
+due à une évolution imposée en un temps fini ;
+• l’entropie informationnelle est associée à la perte d’information ;
+la moitié des pertes est due à l’irréversibilité (effacement de la
+mémoire des entrées), l’autre moitié à la dissipation des circuits de
+commutation des transistors polarisés par des échelons de tension.
+Dans ce contexte, on pourrait envisager :
+• de ralentir les processeurs en les polarisant par des rampes de tension
+suffisamment lentes ;
+• sous réserve de disposer d’une mémoire suffisante, de conserver les étapes
+intermédiaires du calcul, pour pouvoir « rembobiner » de manière réversible
+l’exécution du calcul complet et récupérer l’énergie associée aux mécanismes
+d’effacement.
+Afin de disposer du résultat en un temps comparable, on adopterait alors la
+parallélisation. Alors que la possibilité de réaliser un calcul réversible résulte
+classiquement d’un compromis entre les empreintes matérielle (capacité mémoire
+et processeurs) et énergétique, elle constitue une qualité intrinsèque au calcul
+quantique (voir 2.2).
+131/ LE RALENTISSEMENT 2/ L’ORDINATEUR
+DE LA LOI DE MOORE QUANTIQUE
+Depuis plus de quarante ans, la loi dite de Moore Une des raisons poussant à l’ordinateur quantique est
+a caractérisé la croissance exceptionnelle de le risque que le numérique se heurte au mur de
+la puissance des microprocesseurs. Cette loi l’énergie.
+empirique résulte de la capacité des fabricants Un système quantique est caractérisé par son « état ».
+de semi-conducteurs à doubler tous les dix- Celui-ci est représenté par un vecteur unitaire /E>
+huit mois la densité de transistors gravés sur le dans un espace vectoriel de Hilbert (sur le corps des
+silicium au cours des années passées. Cependant complexes). Ce vecteur est initialement immobile
+depuis quelques années, le maintien du rythme mais sous l’influence d’actions extérieures il évolue
+de cette évolution est confronté à des difficultés sur une sphère unitaire de façon déterministe.
+considérables. Les limites imposées par la Il s’agit de la solution de l’équation de Schrödinger,
+puissance dissipée et la densité d’intégration valable tant qu’on ne mesure rien.
+complexifient de plus en plus les progrès possibles Une quantité mesurable est représentée par
+en matière de miniaturisation des transistors. un opérateur (dit une « observable ») qui a sur
+Sur le plan de l’intégration, des problèmes cet espace des vecteurs propres et des valeurs
+nouveaux apparaissent. L’extrême densité des propres réelles.
+transistors (plusieurs dizaines de millions par mm2 On peut prévoir les résultats possibles de sa mesure :
+en technologie 5 nanomètres) impose d’empiler ce sont précisément ces valeurs propres, avec pour
+de plus en plus de niveaux de métallisation pour probabilité les modules carrés des composantes du
+les interconnecter, ce qui a tendance à faire vecteur sur la base de ces vecteurs propres. Pour
+perdre en partie l’avantage de l’augmentation que cette mesure ait un sens, il faudra si l’on refait
+de leur performance par l’augmentation des la même obtenir le même résultat ; ceci est garanti
+délais de propagation des signaux dans les par le fait que lorsqu’on fait la mesure, le vecteur E
+circuits. L’impossibilité de continuer à réduire tel qu’il était disparaît et devient le vecteur propre
+régulièrement en 2D les dimensions critiques de correspondant à la valeur propre qu’on a mesurée .
+la lithographie nécessite de passer à des solutions
+innovantes d’intégration en trois dimensions Un ordinateur quantique est fabriqué à partir de
+des transistors. Par ailleurs, l’industrie des semi- qbits. Un qbit est un système quantique à deux
+conducteurs se trouve aujourd’hui confrontée états de base, représenté par un vecteur dans un
+à une autre limite physique : les transistors espace à deux dimensions. Son état peut être écrit
+nanoscopiques approchent de la taille de l’atome a/+> + b/->, on l’appelle état « cohérent ». Deux
+(0,1 nm). À cette échelle, le comportement des qbits sont représentés par un vecteur d’un espace
+particules est décrit par la physique quantique, à 4 dimensions : a/++> + b/+-> + c/-+> + d/-->,
+dont les lois non déterministes mettent en défaut le et cet état est appelé « intriqué ». Si on passe de
+fonctionnement attendu des transistors . Bien que, 2 qbits à 10 qbits par exemple on évolue dans un
+pendant plusieurs décennies, la miniaturisation espace à 210=1024 dimensions.
+seule ait suffi à stimuler l’innovation, en permettant
+d’inventer de nouveaux usages et en assurant Un algorithme va faire évoluer ce vecteur d’état.
+ainsi la croissance, l’avenir de l’industrie des semi- Il est constitué d’une série de « portes quantiques »
+conducteurs doit désormais se construire par- qui le modifient pas à pas. Une porte quantique est
+delà la loi de Moore. une impulsion radiofréquence du type de celles
+de la résonance magnétique nucléaire, sur un ou
+plusieurs qbits.
+A la fin de son exécution, on « va au résultat »
+en mesurant quelque chose.
+14L’avantage du quantique est que chaque opération Concernant la consommation énergétique du
+se fait sur le vecteur d’état dans son ensemble, quantique, deux raisons principales peuvent
+donc affecte tous les états de base à la fois. confirmer que le calcul quantique serait moins
+C’est équivalent à un calcul massivement parallèle. énergivore que le calcul classique. La première est
+Dans l’exemple de la recherche d’un nom d’abonné que le calcul demande nettement moins d’étapes.
+à partir de son numéro de téléphone, on montre La deuxième raison serait que les « portes »
+comment, après avoir créé un état qui combine les sont réversibles et ne transfèrent qu’une énergie
+noms de tous les abonnés, un opérateur appelé récupérable. Ces avantages restent théoriques à
+« Oracle » permet de changer le signe du coefficient ce jour.
+de l’abonné qui a le numéro de téléphone donné
+au départ. Il reste alors à appliquer une série de Le calcul quantique permettrait théoriquement de :
+portes quantiques pour concentrer au maximum • factoriser de très grands nombres (cryptogra-
+l’état du système sur celui dont le coefficient vient phie : algorithme de Shor) ;
+d’être inversé (suite de l’algorithme de Grover). • trouver la configuration d’énergie minimum
+L’état du système est alors “presque à coup sûr” d’une molécule complexe en chimie ou
+l’état recherché. Pour avoir une certitude, il convient en biologie ;
+de refaire une seconde fois la même opération • optimiser des systèmes très complexes :
+ou de la faire en parallèle sur deux ordinateurs logistique, finance, réseaux de toutes sortes,
+quantiques identiques. physique des particules, ... ;
+• accélérer le fonctionnement de l’intelligence
+En pratique, un qbit peut être un électron isolé artificielle.
+avec un spin ou un noyau de spin 1⁄2, une jonction
+Josephson, des ions ou des atomes de spin 1⁄2 Du fait de son mode de fonctionnement, un
+piégés à très basse température, des condensats ordinateur quantique est souvent optimisé pour un
+de Bose-Einstein, des quantum dots, des spins de seul type d’utilisation (par exemple le recuit simulé).
+noyaux d’atomes au sein d’une molécule, pourvu Dans quelques années, on pourra probablement
+qu’on ait deux états de base... utiliser l’ordinateur quantique pour sa performance
+L’ordinateur quantique existe réellement jusqu’à 5 ou dans certains calculs très spécialisés, mais même
+10 qbits. Au-delà, la moindre interaction entre cela n’est pas pour demain.
+l’ordinateur quantique et l’extérieur peut être
+considérée comme une mesure et crée une
+décohérence qui entraîne des erreurs. En réalité,
+pour la plupart des spécialistes, il faudrait au
+moins une centaine de qbits pour que l’ordinateur
+quantique devienne intéressant.
+Les pistes pour réduire les erreurs seraient de
+travailler à très basse température et si possible
+avec le minimum de connexions entre l’intérieur et
+l’extérieur du cryostat, ou de calculer plus vite que
+le bruit thermique, ou finalement de corriger les
+erreurs comme pour les ordinateurs classiques.
+1503
+INFRASTRUCTURES
+NUMÉRIQUES.
+ÉTAT DE L’ART
+ET ÉVOLUTION
+1/ PARAMÈTRES DES
+SYSTÈMES INFORMATIQUES
+LES PRINCIPAUX PARAMÈTRES D’USAGE
+DES SYSTÈMES INFORMATIQUES SONT :
+1. La puissance de traitement, exprimée en nombre d’opérations par seconde.
+Elle-même dépend de :
+• la fréquence ;
+historiquement, on a pu jusqu’ici l’augmenter constamment, en poussant la
+miniaturisation des circuits intégrés (loi de Moore). Mais on plafonne désormais
+à 4-5 GHz ;
+• le nombre de circuits intégrés par processeur, et le nombre de
+processeurs ;
+• le mode de calcul, avec aujourd’hui l’introduction de processeurs
+spécialisés pour accroître la puissance de traitement sans augmenter
+la fréquence (dont la mise en œuvre de traitements en parallèle).
+Toutefois, la spécialisation des processeurs oblige à concevoir en même
+temps les circuits et les logiciels, alors que les processeurs universels
+pouvaient être fabriqués séparément, en très grande série. D’autre part, la
+spécialisation, et plus particulièrement la parallélisation, périme jusqu’à 90 %
+du logiciel existant.
+2. L’intensité du trafic, ou débit, exprimée en nombre de messages
+simultanés.Celle-ci
+est liée au mode de calcul et à l’organisation du système.
+Les opérations qui demandent une grande puissance ne peuvent être traitées
+que sur des supercalculateurs, ou au moins des calculateurs groupés :
+• une part du trafic est la communication de ces calculateurs avec les
+terminaux, téléphones, objets communicants... ;
+• une autre est la conséquence de l’usage d’une algorithmique distribuée
+comme celle de la blockchain, qui veut substituer aux validations
+centrales des validations par les usagers eux-mêmes ;
+• une autre est le streaming des vidéos. Elle croît avec la définition des
+images. Faut-il dépasser 4K ?
+16INFRASTRUCTURES 3. La latence, ou temps de transmission d’une 7. Les architectures, les compromis centralisation-
+NUMÉRIQUES. information d’un point à l’autre. décentralisation, l’optimisation des systèmes
+La latence dépend directement de la distance Puissance de calcul et plateformisation poussent
+ÉTAT DE L’ART parcourue par l’information. à la centralisation, réduction de la latence et des
+échanges à la décentralisation.
+ET ÉVOLUTION
+4. La consommation d’énergie Le compromis se traduit par des choix
+Il y en a de deux sortes : architecturaux, avec étagement et mise en réseau
+• la fabrication et le recyclage des matériels. des centraux et des terminaux :
+L’Europe s’est donné des normes, dont les • le FOG, qui est l’architecture de La 5 G, avec des
+fabricants s’inspirent, encore plus pour leurs clouds étagés ;
+objectifs à 10 ans ; • l’edge, qui consiste à faire le plus possible de
+• le fonctionnement. traitement en local (en association avec des
+Les deux sont difficiles à mesurer : capteurs-actionneurs, notamment dans les
+• la première parce que les cycles complets voitures autonomes ; pour celles-ci, l’edge est
+sont mal traçables, d’autant que le gros de la d’ailleurs indispensable pour réagir assez vite,
+fabrication est en Asie, avec une production mais les modèles d’intelligence artificielle doivent
+d’énergie fortement émettrice de CO ; être chargés depuis des supercalculateurs).
+2
+• la consommation en fonctionnement dépend
+des configurations de calcul, qui varie en
+permanence et de façon non décelable. C’est
+un vrai sujet de recherche.
+5. La complexité algorithmique
+En fonction de la quantité de données à traiter,
+cette complexité s’exprime en termes de taille de
+la mémoire ou du nombre d’opérations qu’utilise
+un programme d’ordinateur qui met en œuvre un
+algorithme . Lorsque l’algorithme est distribué, c’est-
+à-dire lorsqu’il résulte de l’exécution par des acteurs
+indépendants et asynchrones communiquant par
+messages, alors le nombre de messages échangés
+constitue un critère supplémentaire de complexité.
+6. La plateformisation
+L’hébergement des données dans des calculateurs
+relativement puissants (data centers) permet aux
+usagers d’accéder à des puissances de traitement
+qu’ils ne pourraient pas se payer. Et la combinaison
+d’un d’un grand nombre de données ouvre la voie
+à des services nouveaux. Mais la plateformisation a
+un envers : la propriété des données, ou au moins
+les droits d’accès. Pour échapper à la mainmise des
+Gafa sur leurs données, les Européens ont décidé
+de constituer le système de labellisation GAIA-X.
+Les Gafa en font partie ; heureusement, car vouloir
+se passer de leur base coûterait trop cher. Mais ce
+sont les grands industriels européens qui seront les
+garants de notre indépendance. Les Allemands l’ont
+bien compris.
+172/ NOUVELLES Il existe toujours un compromis entre la qualité de
+ARCHITECTURES service et la consommation d’énergie. On peut
+optimiser en choisissant le meilleur chemin entre
+les différents serveurs et réseaux.
+En conclusion, le FOG computing apporte des
+2-1 / LE FOG COMPUTING : L’ARCHITECTURE
+progrès considérables (IoTs, voiture connectée) en
+NOUVELLE DE TÉLÉCOMMUNICATIONS DE LA 5G
+permettant de spécialiser le support. De plus, la
+complexité du réseau informatique a augmenté. Le
+L’architecture courante est en transition : on constate
+défi est alors de mettre en place des outils de mesure
+la mise en place d’une couche intermédiaire, le FOG
+pour comprendre la consommation énergétique du
+computing (des millions de processeurs avec des
+système entier. Il faudra expérimenter et pousser
+réseaux locaux, connectés avec les data centers,
+la connexion des outils de mesure. Et enfin, les
+mais aussi qui gèrent les connexions en bout du
+algorithmes de contrôle dans les contrôleurs SDN
+réseau avec les mobiles, les objets connectés, les
+permettent de faire des choix raisonnés et partagés
+capteurs de surveillance, les capteurs du smart-
+pour choisir la performance (soit en consommation
+grid, les capteurs/actionneurs industriels, demain
+d’énergie, soit en temps de réponse).
+les véhicules connectés, etc.). Le FOG computing
+Par ailleurs il est fondamental de constater que
+est réalisé avec des ordinateurs compacts et
+cette architecture de télécommunications est avant
+fiables, comme les NUC d’Intel qui peuvent aussi
+tout celle d’un système informatique distribué entre
+agir en tant que « routeurs SDN », interconnectés
+plusieurs clouds interconnectés. La capacité des
+par des réseaux locaux avec des câbles Ethernet
+acteurs traditionnels des télécoms (opérateurs et
+ou optiques qui font partie de la structure en dur,
+équipementiers) à maîtriser ce changement de
+et des petits serveurs pour stocker des données
+paradigme est une vraie question, de même que
+et offrir des services. Son rôle est d’alimenter
+leur compétitivité future vis-à- vis des GAFAs
+les logiciels soutenant les applications (mobile,
+domotique, sécurité et surveillance, gestion du trafic
+automobile, jeux, etc.), qui au bout du réseau sont 2-2 / L’EDGE COMPUTING ET LES IOT,
+connectées aux «terminaux» (capteurs, actionneurs LE CONTINUUM COMPUTING
+ou mobiles), tout en assurant un accès assez rapide
+au système. Les calculs ne sont plus effectués uniquement
+Les services du FOG sont très profitables pour les dans un point central (cloud ou data center central)
+opérateurs. Actuellement le FOG se spécialise : il est mais de manière éclatée, en tenant compte de
+différent pour chaque type de service, par exemple la localisation de la production des données. Le
+selon qu’on cherche la sécurité ou la rapidité. traitement - ou prétraitement - peut être effectué
+au sein d’edge computers, au plus proche de là où
+Chaque FOG particulier est un ensemble de la donnée est créée. S’il s’agit d’utiliser des données
+machines : d’une part les clients (qui représentent qui diffèrent notamment par la localisation de leur
+des fins de chaînes, comme les applications) et production, le traitement doit être remonté vers un
+d’autre part les services. Cette structure a aussi un cloud plus centralisé. Pour l’intelligence artificielle
+réseau interne (en dehors de l’Internet public) dans et l’apprentissage automatique, l’élaboration
+lequel il y a alors un contrôleur SDN et plusieurs (l’entraînement) du modèle du phénomène à
+NUC. Le contrôleur SDN crée les connexions de étudier se fait de manière centralisée dans le
+façon dynamique pour traiter les demandes qui cloud (souvent via un supercalculateur installé à
+sont adressées au FOG. cet effet), car il s’agit de bénéficier à la fois d’une
+puissance de calcul considérable et de pouvoir
+La consommation d’énergie se mesure notamment croiser des données d’origines très différentes. Une
+dans un NUC, en mesurant le courant. fois le modèle élaboré il peut être chargé dans les
+Le contrôleur SDN joue le rôle de stabilisateur du dispositifs dont le comportement seront soumis au
+système. Pendant les surcharges, le temps de modèle. C’est en particulier le cas pour la mise en
+réponse augmente et le contrôleur SDN adapte les œuvre de voitures autonomes.
+connexions, ce qui permet au temps de réponse de
+se stabiliser.
+182-3 / LA FIN DU PROCESSEUR UNIVERSEL :
+LE RECOURS À LA SPÉCIALISATION ET AU
+PARALLÉLISME
+Jusqu’à environ 2005, on a pu, grâce à la
+miniaturisation des transistors selon la loi de
+Moore, augmenter la performance d’un micro-
+processeur tout en diminuant sa consommation
+d’énergie. Ensuite, il a fallu arrêter l’augmentation de
+fréquence, car au-delà de 4 à 5 GHz la chaleur à
+dissiper devenait trop importante.
+Pour continuer cependant d’accroître la performance
+selon les besoins, il y a deux voies possibles :
+la spécialisation des processeurs et le calcul parallèle,
+les deux pouvant d’ailleurs être combinées.
+Le problème, c’est la programmabilité. Comme
+une partie du code applicatif est exécutée dans
+le composant spécialisé, et que par ailleurs
+l’exploitation du parallélisme massif nécessite de
+revoir les algorithmes existants, il faut redévelopper
+le patrimoine applicatif pour pouvoir bénéficier de
+l’ensemble des nouvelles capacités de traitement.
+Plus un composant est spécialisé et plus il est
+rapide et efficace énergétiquement, mais il devient
+moins facile à programmer ; par exemple, les codes
+Fortran écrits il y a 30 ans ne sont plus utilisables.
+Le parallélisme peut être mis en œuvre aux
+différents niveaux :
+• les processeurs ;
+• les circuits intégrés, qui peuvent maintenant
+regrouper jusqu’à quelques centaines de
+processeurs (les Américains appellent sockets
+de tels circuits) ;
+• les serveurs, où plusieurs « sockets » peuvent
+coexister ;
+• les grands systèmes, comme ceux des
+supercalculateurs ou du cloud, qui accueillent
+des milliers de serveurs en réseau local.
+Une très grande partie du patrimoine applicatif
+est fait de programmes séquentiels ou faiblement
+parallèles. Pour que les applications puissent
+tirer parti du parallélisme, il va falloir réécrire les
+programmes, et reconcevoir les méthodes de
+résolution de problèmes (algorithmes) qu’ils mettent
+en œuvre. 90% au moins des logiciels existants
+sont à revoir.
+193/ L’OPTIMISATION Il est alors primordial de communiquer avec les
+DES SYSTÈMES experts du numérique pour mettre en place soit des
+modèles de données en faisant de l’apprentissage,
+soit des modèles dits hybrides qui sont des modèles
+physiques plus simples couplé à des modèles
+Lors du dimensionnement d’un système de données.
+énergétique, on obtient des données temporelles
+(demande en énergie, prix d’achat/vente de Un premier axe de progrès est d’arriver à mesurer
+l’énergie, profil climatique du site) et des données la consommation énergétique.
+technologiques (catalogue de convertisseurs Les chiffres que l’on a actuellement sur la
+d’énergie, catalogue de moyens de stockage à consommation générale du numérique sont
+court et long terme). Connaissant ces données, à la hausse. La plupart des études montrent
+on détermine l’installation optimale, notamment que c’est vrai depuis les débuts du numérique.
+les unités de production, les moyens de stockage, Malgré toutes les améliorations de l’efficacité
+la taille des unités et la planification des usages. énergétique, l’accroissement du trafic et du
+Il s’agit de ne pas surdimensionner et d’éviter les nombre d’équipements l’emportent, surtout avec
+conflits entre systèmes, mais en même temps de le déploiement de l’internet des objets (IoTs).
+répondre à la demande. C’est un enjeu majeur pour Cependant, il est compliqué d’avoir une idée précise
+les entreprises en énergie. de la consommation du numérique. Plusieurs idées
+fausses doivent être revues, comme dire qu’un
+Pour se fixer un objectif, le critère classique est le équipement informatique non utilisé consomme
+compromis entre coût du système et performance. peu. Un serveur qui n’est pas utilisé continue de
+Aujourd’hui, on y ajoute la prise en compte de consommer de l’énergie à presque 50% de sa
+critères environnementaux, notamment l’empreinte consommation pleine. Et c’est le cas de la plupart
+carbone. L’idée est alors de fédérer les sciences des infrastructures internet, qui ne sont pas souvent
+de l’énergie et celles de l’environnement, pour utilisées à saturation.
+trouver comment mettre en musique tous les Des serveurs identiques ne consomment pas
+critères environnementaux. La mise en équation la même énergie. Ils ont la même performance
+des contraintes environnementales et sociales est mais ne consomment pas de la même manière ;
+difficile. Et la multiplicité des critères va nécessiter la différence peut être de 10 à 15% . Faire le profil
+une puissance de calcul plus élevée. La solution énergétique d’un serveur en se basant sur les
+est de rechercher un optimum raisonnable (proche performances du CPU est également faux. Le taux
+de l’optimum réel) dans un temps raisonnable d’utilisation du CPU n’est pas un bon indicateur.
+(dépendant des acteurs et du secteur industriel Obtenir la consommation énergétique d’une
+visé). Il faut aussi intégrer les aléas dans la prise application ou d’un service donné est compliqué,
+de décision (aléa sur la ressource, la demande, les car plusieurs sous-services s’exécutent en même
+conditions économiques, etc... ). Cette intégration temps, communiquent entre eux et utilisent des
+peut demander des temps de calcul prohibitifs. serveurs différents et ont donc des consommations
+L’enjeu est de trouver des méthodes alternatives. différentes. Sachant aussi que certains serveurs ne
+Modéliser à tous les pas de temps (par exemple 10 sont guère disponibles à la mesure.
+min pour la chaleur ou 10 s pour l’électricité) conduit Pour optimiser cette consommation, il est alors
+à une taille de problème excessive. Il faut réduire le nécessaire d’avoir des modèles déployés sur
+volume des données en créant des données types des clouds grand public mais aussi privés pour
+(cluster type). essayer d’estimer la consommation des services.
+Pour modéliser un système physique, tenir compte Cela se fait sur des architectures de plus en plus
+des usages de tous les composants permet distribuées. Les calculs théoriques sont erronés
+d’ajuster le choix de la précision physique. Plus du fait de l’empilement des couches matérielles
+elle sera élevée, mieux le modèle rendra compte et logicielles. Il s’agit de chercher à comprendre
+du fonctionnement (par exemple, la dégradation cette consommation énergétique ainsi que sa
+du système, etc..), mais plus le temps de résolution distribution pour pouvoir concevoir des systèmes
+sera long. d’informations adaptés au besoin de l’utilisateur.
+20Le deuxième axe est de concevoir des systèmes procédés industriels à basse température,
+informatiques « juste assez ». Par exemple, sur la électromobilité, fours électriques dans certaines
+digitalisation de l’énergie, quels objectifs doivent être industries etc.) ;
+pris en compte : performance, sécurité des données, • l’utilisation de carburants renouvelables et de
+efficacité en temps réel, tolérance aux pannes carburants peu carbonés, y compris l’hydrogène,
+(redondance, surprovisionnement, comment pour des applications dans lesquelles le
+optimiser une infrastructure déjà construite ou chauffage direct ou l’électrification ne sont
+neuve). Pour cela, il est important de développer des pas la meilleure solution ou pas possibles, pas
+outils d’analyse et d’aide à la décision en prenant efficaces ou trop onéreux. Par exemple, le gaz
+en compte toutes les contraintes. Cela nécessite naturel dans une phase de transition entre
+beaucoup d’interdisciplinarité et d’échanges. Les charbon et solutions décarbonées ; l’hydrogène
+systèmes d’information seront contraints d’un point renouvelable et bas carbone dans des procédés
+de vue énergie, en termes de pic de puissance, ou industriels, voire dans les transports routiers et
+d’alimentation en énergie renouvelable intermittente. ferroviaires lourds ; les carburants de synthèse
+dans les transports aérien et maritime (biomasse,
+Le troisième axe concerne l’amélioration de biogaz etc.).
+l’efficacité énergétique des infrastructures. Sachant
+que les nouvelles générations de mobiles s’empilent, Concrètement, les caractéristiques de
+il faudra compenser leurs consommations par les l’intégration sectorielle (ISE) sont :
+gains sur les usages dans d’autres secteurs. • approche énergétique multi-vectorielle,
+pour garantir décarbonation, sécurité
+Le dernier axe concerne la sobriété pour réduire d’approvisionnement, résilience et maîtrise des
+la consommation énergétique. Cette sobriété peut coûts ;
+consister à rendre le numérique plus “vert”, à • le principe de l’efficacité énergétique au cœur ;
+analyser le cycle de vie des matériaux et améliorer • la demande énergétique devra être
+le recyclage, à se poser la question de l’internet en décarbonée, notamment via l’électrification
+priorisant les capteurs et intelligences numériques (nucléaire pour ceux qui en font le choix,
+les plus utiles, et finalement à poser les questions électricité et gaz renouvelables) ;
+d’acceptabilité sociétale de cette sobriété. • l’ISE est également clé pour faciliter la
+pénétration de l’électricité renouvelable dans
+On peut emprunter le cadrage global à la le système énergétique (via P2G et G2P
+Commission européenne. En juillet 2020, celle- notamment). Elle prévoit aussi l’optimisation
+ci a publié sa stratégie “intégration du système des infrastructures existantes (acceptabilité,
+énergétique”, définie comme la planification coûts etc.) pour assurer la flexibilité
+et le fonctionnement coordonnés du système et le back-up ;
+énergétique considéré « comme un tout », tous • recours au gaz et aux gaz renouvelables,
+vecteurs énergétiques, infrastructures et secteurs notamment quand l’électrification s’avère trop
+de consommation confondus. Son objectif est de difficile ou trop coûteuse ;
+permettre une décarbonation efficace, abordable et • modèle énergétique en mutation, plus
+en profondeur de l’économie européenne. décentralisé, apparition de systèmes
+Les trois piliers de l’intégration sectorielle sont : énergétiques locaux, de « communautés
+• un système énergétique « circulaire », avec énergétiques », coexistant avec le modèle
+l’efficacité énergétique au centre (ex : installations centralisé traditionnel ;
+de production combinée de chaleur et • accroissement de l’interfaçage / appel à la
+d’électricité ou via l’utilisation de certains déchets digitalisation notamment, qui est aussi facteur de
+et résidus, chaleur fatale provenant de procédés risques (cybersécurité).
+industriels ou de centres de données, énergie
+produite à partir de biodéchets) ;
+• une électrification accrue des secteurs
+d’utilisation qui s’y prêtent (ex : recours aux
+pompes à chaleur pour le chauffage ou les
+214/ SÉCURITÉ ET RÉSILIENCE résilience systémique.
+Il existe différentes recommandations à l’intention
+des «clients» et des «fournisseurs», mais elles ne
+sont souvent pas mises en œuvre (réglementation)
+Le premier besoin, en particulier pour le réseau ni appliquées (manque de sensibilisation, coûts et
+électrique, est de restaurer le plus vite possible l’état efforts, etc.).
+des systèmes qui tombent en panne.
+L’autre est de résister aux cyber-attaques. Les principaux constats et recommandations liés
+La cybersécurité est un enjeu majeur pour le à la cybersécurité sont les suivants :
+numérique. Il existe divers groupes de discussion • le rythme des changements induit de nouvelles
+à une échelle internationale. À l’échelle européenne, vulnérabilités dont il faut savoir se protéger
+la question de la cybersécurité vise à partager rapidement. Les dispositifs de sécurité sont
+les meilleures pratiques et standards. Aujourd’hui, toujours en retard sur les menaces ;
+le système énergétique n’est plus linéaire, mais • les systèmes de surveillance dotés de capacités
+présente des complexités sur les flux de données de visibilité totale font défaut ;
+passant par différents acteurs. On parle aussi • les mesures de cybersécurité représentent un
+des couplages entre différentes énergies : gaz/ coût, et il est absolument nécessaire que tous
+électricité etc... les acteurs/opérateurs du système agissent
+Cette interdépendance propage le risque, depuis en conséquence. Les entreprises devraient
+l’utilisateur jusqu’au système. Le projet européen consacrer 10 à 15 % de leur budget informatique
+apporte une cohérence d’approche globale dans à la protection contre les violations de données
+cette gestion de risque. La cybersécurité amène et les attaques. Les dépenses supplémentaires
+certes des coûts supplémentaires, notamment liées à la cybersécurité industrielle pourraient
+énergétiques, mais est essentielle pour assurer une atteindre une valeur égale ;
+continuité de fonctionnement du système entier. • les collaborations intersectorielles sont
+indispensables pour gérer le cyber-défi de
+Avec différents systèmes qui coexistent, la l’ensemble du système énergétique ;
+communication intersectorielle est indispensable • il est indispensable d’avoir une approche
+pour contrôler et optimiser les interdépendances. réglementaire harmonisée dans l’UE ; le NIS 2.0
+Que ce soient les données d’échange ou les de l’UE est un pas dans la bonne direction ;
+matériels, la gestion d’une communication • le risque cybernétique de la chaîne
+numérique intense et en temps réel est nécessaire d’approvisionnement doit être géré ;
+pour équilibrer les systèmes. Un système de • un système de cyber-certification pour les
+contrôle décentralisé (par exemple, Edge-to- technologies critiques est indispensable ;
+cloud) apportera de la valeur mais aussi de • les personnes qualifiées restent insuffisantes
+nouveaux points potentiels de cyberdéfaillance. sur notre marché de l’emploi. La cybersécurité
+Aujourd’hui, compte tenu de la grande diversité industrielle n’est encore que trop souvent
+des transcriptions réglementaires dans les États effleurée dans les formations académiques.
+membres, l’UE cherche à mettre en place des Un investissement important dans la formation
+contraintes régulatrices auprès des industriels. théorique et pratique est nécessaire.
+La directive européenne NIS 1.0 sur la résilience des
+entités critiques révèle de grandes différences de
+mise en œuvre entre les États membres. Dans le
+cadre de la version NIS 2.0, la Commission a lancé
+un cycle de consultations qui devrait se terminer
+début 2022.
+En 2019, l’attaque de SolarWinds a démontré que la
+vulnérabilité de la chaîne d’approvisionnement était
+désormais un enjeu majeur de la cybersécurité
+industrielle. Un système supposé de confiance peut
+propager des vulnérabilités à d’autres systèmes.
+L’attaque de la chaîne d’approvisionnement
+de SolarWinds a également mis en évidence
+l’existence de failles majeures dans le secteur de
+l’énergie : le manque de préparation et la faible
+222304
+ANALYSE
+SECTORIELLE
+1/ ÉLECTRONIQUE, INFORMATIQUE,
+TÉLÉCOMMUNICATIONS
+Comprendre la digitalisation commence par les composants matériels d’un
+système numérique.
+La France a le potentiel de remplir les chaînes de valeur de la
+transformation numérique :
+• la fabrication de composants réalisée par le CEA-LETI et
+ST Microelectronics ;
+• Kalray, spécialiste dans les processeurs parallèles ;
+• les data-centers d’OVH ;
+• les supercalculateurs ainsi que le programme quantique d’Atos ;
+• la filière télécommunication, du point de vue d’Orange ;
+• et le contrôle des supply chains, par l’exemple d’Atos et de Kalray.
+1-1 / COMPOSANTS ; RÉALISATIONS DU CEA-LETI ET DE
+ST MICROELECTRONICS
+La fabrication des composants électronique a deux axes principaux :
+• le cycle de vie, avec tout ce que cela implique dans les matériaux,
+l’approvisionnement et la capacité à produire de la façon la moins
+consommatrice ;
+• les données et l’apport de l’intelligence artificielle pour démultiplier les
+traitements fondés sur leur analyse.
+Les industriels sont mobilisés sur les enjeux de consommation des objets
+électroniques (analyses de cycle de vie). Le CEA-LETI est extrêmement
+motivé pour travailler sur ces sujets. L’enjeu proposé est de réduire la
+consommation d’un facteur 1000 d’ici 10 à 15 ans. Pour ce faire, il propose un
+plan d’action avec 9 axes. Chaque axe est défini aussi sur la technologie : le
+premier concerne les semi-conducteurs, le deuxième niveau l’architecture
+et le dernier niveau le logiciel embarqué en lien étroit avec l’application visée.
+24ANALYSE
+SECTORIELLE
+Tableau 2 : Les 9 axes du plan d’action proposé. Source : Présentation CEA-LETI, Sebastien Dauve
+Aujourd’hui, pour adresser les problématiques A cinq ans, le gain dans le rapport entre la puissance
+définies, il est nécessaire d’avoir une approche de calcul et la consommation d’énergie pourrait
+système sur ces trois niveaux. être d’un facteur 100.
+Dans le premier niveau, qui est le court terme,
+on peut parler de calcul neuromorphique. Aujourd’hui, STMicroelectronics travaille à 28
+On traite massivement l’intelligence artificielle sur nanomètres ; le CEA-LETI prépare le 10 nanomètres
+le cloud. L’enjeu est d’être capable de monter des qui sera mis sur le marché en 2025-2026. Sous 10
+circuits d’intelligence embarquée au niveau d’un nanomètres, l’intérêt du SOI est difficile à démontrer.
+objet lié à l’IoT. En performance de calcul et en TSMC a déjà commercialisé les 7 nanomètres.
+performance énergétique, on est encore loin des Le CEA-LETI explore des concepts de nanosheets
+capacités du cerveau d’une abeille, et beaucoup empilés qui pourraient permettre d’aller vers les
+de travail est nécessaire. On peut chercher à 5 nanomètres et un peu plus loin.
+modifier les architectures et rapprocher le plus
+possible l’unité de calcul et l’unité de mémoire, STMicroelectronics est très présent sur le marché
+car d’un point de vue énergétique, le mouvement des objets intelligents (IoTs), où la consommation
+des données représente 90% de la consommation d’énergie est déjà un vrai problème. Le trafic
+des processeurs. internet va croître très fortement avec l’arrivée
+Aujourd’hui on peut utiliser des mémoires de la 5G, qui permettra de multiplier les IoTs. Les
+non volatiles, cohérentes avec la technologie échanges d’informations pourraient atteindre 25
+CMOS. Plusieurs critères de comparaison sont à 50 ZB en 2025 (1 ZB = 1021 octets) , et 500 ZB
+définis, comme la puissance de programmation, en 2030. L’intelligence artificielle utilisée par les IoTs
+l’endurance, la vitesse d’écriture etc... On explore une se réalise dans le cloud ou les data centers, via
+mémoire résistive et une mémoire 0- électrique qui des logiciels qui tournent sur de gros calculateurs.
+offrent des critères largement pertinents comparés ST Microelectronics estime que les data centers
+à la mémoire flash très utilisée. On peut alors déjà pourraient consommer de 25 à 50 fois plus
+avoir une consommation très réduite. d’énergie à l’horizon 2030. Cela représenterait 100 à
+Toujours à court terme, on a d’autres moyens 300 Twh. Il existe des architectures qui essaient de
+de réduire la consommation. Par exemple de maîtriser cette augmentation. Mais le moyen le plus
+développer un substrat de type silicon on insulator efficace, c’est de maximiser les traitements locaux
+(SOI) et d’utiliser une technologie appelée sur les données produites localement, ce qu’on
+“fully depleted SOI (FD SOI)” pour faire des appelle l’edge computing.
+microcontrôleurs ; elle offre intrinsèquement
+une alternative intéressante en termes de
+consommation, en particulier pour des applications
+embarquées.
+25Un modèle de réseau de neurones est entraîné par 1-2 / LES PROCESSEURS PARALLÈLES KALRAY
+apprentissage en central pour bénéficier de toutes
+les données de circulation accumulées par le plus Kalray fait des processeurs pluri-cœurs. Avec
+grand nombre de véhicules possibles et sur une l’IA, les calculs se font près des données avec
+durée la plus longue possible (ce qui nécessite une des accélérateurs: l’edge computing. Il y a deux
+très grande capacité d’archivage et de puissance principaux acteurs du sujet: Intel et Nvidia (focalisée
+de calcul). Ce modèle est ensuite chargé dans sur l’accélération de l’IA). Il existe un continuum qui
+chaque véhicule pour pouvoir réagir en temps va de l’IoT aux data centers et c’est de plus en plus
+réel par des processeurs spécifiques embarqués sensible avec les problématiques de la 5G.
+aux événements de circulation. Cette phase La motivation générale de l’edge est la consommation
+dite d’inférence neuronale est donc effectuée d’énergie, car on calcule localement. Aussi, le fait
+localement et relève donc de l’edge computing. de travailler près des sources de données réduit
+ST Microelectronics vise le traitement de l’IA en nettement la latence.
+edge. L’objectif, c’est 80 % d’edge en 2030. Dans Kalray connaît bien l’edge, notamment pour la
+une voiture, il y a par ailleurs beaucoup de tâches conduite autonome : gestion des données avec
+d’inférence à effectuer : la reconnaissance vocale, les capteurs (caméra, capteur de mouvement,
+la détection d’objets, la détection des anomalies... position satellite) (étape appelée perception, dans
+Actuellement, les capteurs ne font pas de traitement. laquelle il faut calculer vite), localisation, prédiction,
+Le but est donc d’agir au niveau de chaque décision (avec une technique classique de contrôle-
+composant : commande). Beaucoup de calcul se fait en local et
+• associer aux capteurs un traitement local donc nécessite beaucoup de communication (avec
+d’informations ; fréquence ultra-basse).
+• doter les microcontrôleurs de systèmes de Au niveau des machines informatiques, on travaille
+communication intégrés et de moyens de avec des multicores homogènes (data centers),
+sécurité embarqués ; implanter l’inférence processeurs avec une multiplicité de cores. C’est
+neuronale en local (réseaux neuronaux, beaucoup plus facile à programmer, mais ne passe
+apprentissage et traitement d’informations). pas bien à l’échelle à cause des partages en dehors
+du core. Les duplications se font avec les groupes
+Pour optimiser la consommation, STMicroelectronics de cores appelés manycores. La différence entre
+utilise de nouvelles technologies, notamment multicore et manycore est la qualité. Les multicores
+les circuits intégrés FDSOI et les mémoires à ne sont pas forcément spécialisés, les plus efficaces
+changement de phase (pcm), qui permettent sont alors les manycores.
+en association avec les réseaux de neurones Kalray construit des processeurs manycores basés
+un traitement partiellement analogique et non sur des cores programmables non spécialisés comme
+juste binaire. les gpgpu. Les machines Kalray s’utilisent en particulier
+dans l’edge, beaucoup en inférence neuronale,
+Un défi est aussi d’augmenter la capacité de avec des programmations classiques (type java,
+la mémoire pour y effectuer des opérations. c++) mais aussi dans les modèles d’apprentissage
+Aujourd’hui, la consommation d’énergie est automatique (langage de haut niveau).
+principalement liée à la communication entre
+processeurs et mémoire. Or on a observé que les Ce type d’évolution est inclus dans le projet européen
+processeurs graphiques ont la capacité de traiter EPI (European Processor Initiative). La deuxième
+de l’information plus rapidement et avec moins de étape sera de viser des calculs plus complexes, par
+consommation que les CPU classiques en la traitant gpgpu puis sur des applications modernes. Ensuite,
+directement dans la mémoire. il s’agira de donner une accélération faisable aux
+Les traitements en local demandent que les logiciels applications de la deuxième étape. Enfin, Kalray
+soient intégrés dans les microprocesseurs, puis qu’on souhaite offrir une alternative aux gpgpu et passer
+leur associe les réseaux de neurones, et enfin qu’on au-delà des limites de la technologie actuelle.
+ajoute de la mémoire au niveau des microcontrôleurs.
+Le but ultime est un système autoalimenté.
+261-3 / LES DATA CENTERS ; L’enjeu est de déterminer si, dans la décennie 2020,
+LES RÉALISATIONS D’OVH il sera possible de poursuivre cette stabilisation.
+Sans doute, les gains d’efficacité des équipements
+Les data centers sont des équipements qui constituent les data centers ne suffiront pas :
+particulièrement électro-intensifs. Fin 2020, l’UE a l’enjeu est notamment de mieux insérer, selon
+publié un rapport sur la consommation énergétique une vision de « sector coupling », les data centers
+du cloud. On observe avec intérêt que parmi les dans le réseau électrique (en fournissant différents
+scénarios présentés, le “worst case” est celui dont services pour l’équilibre du système électrique). Il
+la dynamique de croissance de la consommation est aussi important de considérer les conditions
+électrique est la plus prononcée ... indépendamment d’alimentation électrique, notamment par des
+des activités déployées (bonnes ou mauvaises pour contrats de PPA (Power Purchase Agreement), de
+l’action climatique). façon à garantir un approvisionnement en électricité
+Or, toujours selon la Commission européenne (dans renouvelable (avec, en retour, une contribution au
+un autre rapport), le marché des données en Europe financement des renouvelables).
+pourrait peser jusqu’à 6% du PIB durant la décennie
+(avec, mécaniquement, un besoin important de Malgré ces différents leviers, la concentration des
+datas centers). Autrement dit, le débat est complexe, datas centers met en forte tension certains systèmes
+et le déploiement de ces équipements (et la électriques et demande des investissements
+croissance des consommations induites) sont vues supplémentaires en infrastructures (tant dans le
+ou comme une menace, ou comme un facteur de domaine de l’énergie que des télécommunications,
+transformation de l’économie européenne. notamment en ce qui concerne les réseaux de
+On constate que le problème se pose à l’échelle locale fibres optiques). Diverses projections témoignent
+tout autant que globale, avec une problématique de ce phénomène en Europe : en 2030, les data
+relative aux conditions d’insertion des data centers centers pourraient représenter de l’ordre de 20 à
+dans des systèmes locaux (systèmes électriques, 30% de l’électricité consommée au Danemark et en
+mais également réseaux de chaleur). Irlande (selon les opérateurs de réseaux électriques
+Une illustration peut se faire en comparant nationaux), pays qui ont développé des stratégies
+l’électronique à l’éclairage : on est parti des lampes très agressives pour les attirer. En 2019, la Hollande a
+à huile puis des bougies, avec des rendements décidé un moratoire sur l’implantation de nouveaux
+lumineux très médiocres, puis on a vu arriver les data centers.
+lampes à incandescence avec des rendements
+de 1 à 2 % , puis enfin les leds avec un rendement Il est essentiel que ce débat progresse, compte tenu
+lumineux allant jusqu’à 25%. Cette dernière de la volonté européenne d’une neutralité climatique
+mutation s’est opérée en 30 ans. Comparativement, des data centers en 2030. On observe avec intérêt
+les data centers sont à un niveau encore plus bas qu’une large coalition d’acteurs se mobilise autour
+que la lampe à huile et il faut espérer que, dans les d’un « Climate Neutral Data Centre Pact » qui vise à
+décennies qui viennent, le même progrès que pour atteindre cet objectif.
+l’éclairage va pouvoir se développer.
+Le constat de base n’est pas nécessairement
+alarmant. Pour la décennie 2010, on a remarqué
+une stabilisation de la consommation énergétique
+des data centers. Ce constat est expliqué par le
+développement de data centers « hyperscales »
+(i.e. « géants »), nettement plus efficaces que les
+précédentes générations.
+27OVHCloud, fournisseur de data centers, a défini ses Les supercalculateurs du groupe ATOS sont au plus
+objectifs sur la base de cinq piliers : haut niveau de performance mondial.
+•1 . l’efficacité énergétique (sujet du PUE). L’objectif L’iPhone 4 de 2013 a la même puissance de calcul
+est d’atteindre un PUE de 1,3 pour tous les de 1,6 giga flops (floating point operation per second)
+nouveaux data centers en 2025 et 1,3 pour que le Cray 2 de 1985. Un MacBook Air, c’est 230
+2030 entre tous les signataires (y compris giga flops. Le supercalculateur Atos Sequana,
+les anciens data centers, avec pour les zones c’est 44 millions de giga flops.
+chaudes un PUE de 1,4) ; Un supercalculateur, c’est un gros radiateur.
+•2 . l’énergie décarbonée, pour qu’en 2030, 100% La consommation énergétique va jusqu’à 20 MW,
+de l’énergie utilisée soit décarbonée, avec une la masse jusqu’à 200 tonnes ; chaque composant
+liberté sur le choix du mix énergétique. Et déjà produit une chaleur extrême, jusqu’à 300 watts
+atteindre 75% en 2025 (pour les opérateurs aujourd’hui et 800 watts d’ici 2 ans. Il peut avoir
+avec une puissance supérieure à 50 kW) ; jusqu’à 10 millions de cœurs, permettant d’atteindre
+une des voies est de lier la consommation aux aujourd’hui des puissances de calcul jusqu’à 400
+moyens de production verts et de créer une petaflops (1 petaflops = 1015 opérations par seconde).
+relation entre consommateurs et producteurs L’efficacité énergétique se dégrade en fonction de
+d’énergie. C’est ce qu’OVH fait pour les la taille du supercalculateur. Au-delà d’un certain
+serveurs qu’il installe. Le problème n’est pas nombre de nœuds, on ne progresse plus.
+spécifiquement français, et OVH travaille aussi A nouveau, l’alimentation des supercalculateurs
+avec l’Italie, l’Inde, l’Amérique du Nord. peut être mise en place dans le cadre de contrats
+•3 . l’utilisation de l’eau. Le débat est inévitable : de PPA (Power Purchase Agreement), de façon
+si en France l’accès à l’eau est encore facile, à garantir un approvisionnement en électricité
+ailleurs cela commence à être contraignant, et renouvelable (avec, en retour, une contribution au
+il est important de le prendre en considération financement des renouvelables). De même Atos a
+dès aujourd’hui ; monté des partenariats de recherche pour élaborer
+•4 . la réutilisation (le recyclage) de tous les des dispositifs d’alimentation par hydrogène vert.
+équipements, (serveurs etc…) ;
+•5 . la réutilisation de la chaleur, même si cet 1-5 / LE PROGRAMME QUANTIQUE
+engagement est limité. En effet, l’utilisation
+de cette chaleur dépend de l’environnement Une plateforme appelée Quantum Learning
+du data center ; l’intérêt local est varié, sans Machine (QLM) est développée chez Atos. Elle utilise
+oublier le lobbying des chauffages urbains un serveur à grande mémoire partagée (jusqu’à 48
+face à la gratuité ; et nous rejetons plus de téraoctets de mémoire vive) et permet de mettre
+chaleur en été qu’en hiver. tous les calculs en mémoire vive. Elle intègre aussi
+les travaux réalisés avec les instituts de recherche
+1-4 / LES SUPER CALCULATEURS, dans la technologie quantique. Il s’agit de modéliser
+LES FABRICATIONS D’ATOS le bruit quantique des dispositifs physiques
+et d’arriver à simuler un véritable processeur
+Comme exemple des cas où l’on a impérativement quantique avec son bruit, ou de retirer ce bruit pour
+besoin de supercalculateurs, on peut avoir les simuler un calcul parfait. Il y a aussi un travail sur les
+prévisions météo, la modélisation du climat, les algorithmes quantiques pour les lier directement au
+prospections du sous-sol, et toutes les modélisations supercalculateur.
+numériques (physique des hautes énergies, Le Quantum Safe Program étudie la suprématie
+crash test, séquençage de génomes, Santé et quantique qui peut mettre à mal les méthodes de
+conception de nouveaux médicaments, analyse déchiffrement existant aujourd’hui. Ce programme
+de risques, Défense...). Au-delà, on a aussi besoin vise à résister aux futures attaques quantiques.
+de supercalculateurs pour calculer les modèles Les enjeux tournent alors autour de l’acquisition de
+d’apprentissage s’appuyant sur des océans la connaissance sur le quantique, l’apprentissage
+de données, comme dans le cas de la voiture de la programmation quantique et le test des
+autonome avant de télécharger ces modèles dans programmes. Le but est d’optimiser les algorithmes
+les véhicules eux-mêmes. quantiques sur les calculateurs d’aujourd’hui.
+Le défi des années à venir est l’exascale
+(1018 opérations en virgule flottante par seconde,
+cent fois plus que ce que l’on délivre actuellement).
+281-6 / TÉLÉCOMMUNICATIONS 1-7 / LE CONTRÔLE DES SUPPLY CHAINS
+L’impact actuel des technologies de l’information et Aujourd’hui 75% des composants utilisés par les
+de communication dans les émissions de carbone fabricants européens sont produits hors d’Europe.
+est de 3.7 % de l’impact global. La croissance de Le programme européen European Processor
+la demande de services est exponentielle, mais les Initiative (EPI) auquel Atos et Kalray participent
+émissions carbone restent stables. vise à donner à l’Europe la capacité de créer ses
+Les acteurs de ces technologies sont tous engagés propres processeurs. L’objectif 2030 serait d’arriver
+dans la réduction d’émissions, surtout dans le secteur à entre 65% et 70% d’autonomie. 27 partenaires
+des télécoms. Environ 50 % des achats privés dans travaillent sur un processeur qui sera disponible
+le cadre de power purchase agreements (ppa) sont en 2023. Il intégrera des éléments de sécurité et
+faits par les acteurs du numérique. Les analystes permettra un traitement efficace de l’entraînement,
+ne prennent pas en compte ces investissements pour l’intelligence artificielle ; la consommation
+dans leur impact carbone, non plus que les efforts énergétique sera l’un de ses enjeux et devra
+faits dans les nouveaux data centers avec du free être contenue.
+cooling. La demande énergétique est beaucoup Pour les circuits intégrés, à moins d’aides massives,
+plus sobre que les prévisions. Tout le secteur est en ST ne peut suivre la course à la miniaturisation
+train d’être décarboné. ultime, menée par deux champions asiatiques :
+Samsung et TSMC. Intel, qui avait semblé renoncer,
+L’engagement des opérateurs est le suivant : a décidé de se remettre à niveau, et de mener
+• en 2025, 30% de CO en moins par rapport une politique plus ouverte : davantage de dialogue
+2
+à 2015, cela principalement grâce aux avec ses clients, et sans doute la construction d’une
+EnR (produites ou achetées). On peut ainsi usine en Europe.
+conjuguer croissance de la consommation
+d’énergie et décarbonation. À cela s’ajoutent
+les programmes d’amélioration de l’efficacité
+énergétique, avec les progrès du hardware et
+de l’algorithmie ;
+• en 2040, neutralité carbone. Les émissions
+résiduelles incompressibles seront
+compensées par des puits de carbone.
+Aujourd’hui les data centers d’Orange représentent
+9% de la consommation totale du secteur des
+télécommunications.Orange
+consomme près de 5,3 TWh dont 2 en
+France. 85% correspond au réseau et au traitement
+de l’information. Les data centers d’Orange
+représentent 9 % de la consommation totale du
+secteur des télécommunications.
+D’année en année, Orange a accumulé des puits de
+carbone. Il envisage aussi de s’approvisionner chez
+les acteurs spécialisés. Il y a deux façons d’acheter :
+tel que produit (y compris l’intermittence), et tel
+que chez l’acteur, qui peut équilibrer avec d’autres
+sources. Cela pallie le risque d’intermittence, mais
+coûte plus cher.
+On cherche à faire basculer les utilisateurs vers
+les systèmes fixes. Il faudra savoir lier l’usage et
+l’architecture à la consommation. L’important est
+d’animer de façon globale un écosystème entier.
+292/ PRODUCTION phase de construction, mais aussi des maquettes
+ET TRANSPORT de surveillance de vieillissement des structures.
+Quant à l’hydraulique, on veut augmenter la
+D’ÉLECTRICITÉ
+performance économique et industrielle, améliorer
+le pilotage des ouvrages et développer de
+nouvelles capacités.
+Dans le domaine de l’énergie électrique, le numérique Pour le renouvelable (solaire et éolien), les opérations
+a déjà une place pérenne. Il est fondamental au de supervision et de maintenance sont centralisées
+niveau électrique, et il a un fort rôle dans la flexibilité. dans un cloud sécurisé, et l’ensemble des données
+Pour EDF, les objectifs de la digitalisation sont est envoyé dans un data lake renouvelable qui
+d’améliorer les processus métier, d’innover en permet de comparer la production réalisée et celle
+lien avec la stratégie d’entreprise (CAP 2030 pour estimée, d’avoir des indicateurs de performance
+EDF SA), de créer de nouveaux services et lignes en temps réel, et ainsi d’optimiser en permanence.
+de business, d’améliorer le niveau des employés Les VPP (Virtual power plants) permettent de piloter
+(développement de compétences, expertises), et de de manière virtuelle un ensemble de sites de
+construire un socle technologique robuste. production. La blockchain permet de tracer l’origine
+Autour de la donnée, on cherche à développer les de l’énergie et donne au consommateur la garantie
+IoTs, la digitalisation en interne, les smartphones de traçabilité de son énergie (verte ou non verte).
+pour les différentes activités, les drones pour la
+surveillance, et les objets Linky. En termes de 2-2 / OPTIMISATION AMONT-AVAL
+partage, l’IA est omniprésente, avec l’automatisation,
+et le concept de dataspace. Enfin, on développe les On fait de plus en plus face à une logique en
+jumeaux numériques et la réalité virtuelle (dans le temps réel, avec une intégration plus forte au
+cadre de formations). niveau européen, en cherchant à sécuriser les
+transactions. Un moyen est de développer des
+De plus, on tient compte des valeurs et exigences systèmes d’IA pour réduire le pas de temps et
+centrales du numérique : éthique, cybersécurité, traiter l’intermittence de production.
+problématiques de stockage. Pour la distribution, EDF cherche à être le tiers de
+En général, le numérique facilite le fonctionnement confiance du marché, en adaptant le réseau aux
+de l’entreprise étendue ; il a permis de passer la crise nouveaux usages et à la production décentralisée.
+covid-19 en poursuivant les activités à distance. L’apport du numérique se trouve d’abord sur le volet
+industriel (supervision, maintenance, optimisation
+2-1 / PRODUCTION de l’ensemble du réseau, IoTs, 5G), mais aussi
+dans la création d’une plateforme de diffusion
+L’ensemble des fonctions nécessaires à la et de fournitures de données de référence sur la
+production est impacté par le numérique : production et de la consommation d’énergie. On peut
+la sécurisation des intervenants (4G sécurisée ainsi devenir réellement l’opérateur des données
+dans les centrales), le déploiement des IoTs au service de la décarbonation de l’ensemble du
+(écoute, visualisation), l’aide aux intervenants, secteur, à la fois industrielle, personnelle et publique
+la certification des tests et productions à l’ensemble .
+des organismes de contrôle...
+De plus, l’edge computing va dans le sens de
+la responsabilisation, et apporte une capacité de
+production et de fonctionnement en local. Il permet
+de raccourcir les temps de décision, et d’agir sur
+l’engorgement du réseau.
+Concernant le nucléaire, l’objectif est d’augmenter la
+durée de vie du parc en toute sûreté, de construire les
+centrales de demain et de démanteler les sites. Sur
+les nouveaux réacteurs nucléaires à eau pressurisée
+(EPRs), on utilise les jumeaux numériques dans la
+302-3 / COMMERCIALISATION ET SERVICES Les phénomènes que le système veut
+ÉNERGÉTIQUES principalement éviter sont :
+• l’écroulement de fréquence, quand on a
+L’enjeu est de fournir une qualité d’offre et de un déséquilibre entre la production et la
+performance commerciale, mais également une consommation ;
+réactivité en matière d’offre (avec l’explosion des • l’écroulement de tension, principalement
+prix de l’énergie imposée sur le marché), ensuite de lié à l’éloignement entre la production et la
+fournir des services accompagnant la consommation ;
+transition écologique et le réchauffement • la surcharge en cascade de lignes électriques.
+climatique pour maîtriser la consommation et La répartition des flux de courant dépend de la
+l’efficacité énergétique, et enfin de développer répartition géographique des équipements de
+des services de maîtrise de l’énergie (autour production et des consommateurs. Elle dépend
+des données par l’IA, ou de développer des aussi de l’impédance des éléments du réseau, liée
+jumeaux numériques ou des objets connectés), aux caractéristiques des conducteurs. Et enfin, de la
+et les services propres à la réduction de la topologie du réseau, qui représente son intelligence
+consommation énergétique. même (réseau bouclé par exemple).
+Le gestionnaire du réseau garantit que le flux reste
+Tout cela s’accompagne d’exigences fortes: stable en régime normal et dégradé par des pertes
+• un service de confiance : avec l’exemple d’ouvrage. La simulation d’une perte d’un ouvrage
+des clouds, les exigences sont portées au (ligne, poste ou groupe de production) permet
+niveau européen, au travers de la politique de d’anticiper les réponses du système. Il est indéniable
+labellisation de la démarche GAIA-X ; que les EnRs augmentent significativement la
+• concernant la cybersécurité : on cherche variabilité et l’incertitude des flux.
+à établir un échange transparent avec les
+acteurs, mais aussi on applique le principe de La transition énergétique donne un système
+privacy by design dans le RGPP (Règlement électrique en pleine évolution, voire en pleine
+Général pour la Protection des Données) ; révolution. Les moyens de production EnRs
+• la problématique du numérique croissent rapidement : or ils sont peu pilotables
+responsable est au cœur des exigences : à cause des fortes incertitudes sur les prévisions
+que ce soit l’IT for green ou le green-IT, d’ensoleillement et de vent. Dans ce contexte,
+on cherche à minimiser le stockage de RTE doit gérer et adapter le réseau en temps
+données, avec une approche «éthique » réel. Le numérique permet la mise en œuvre de
+de l’utilisation de l’IA . diverses mesures. Ainsi RTE peut procéder à des
+écrêtements ponctuels d’EnRs pendant un temps
+2-4 / LE TRANSPORT D’ÉLECTRICITÉ de l’ordre de quelques heures dans l’année. Cela
+permet un meilleur dimensionnement du réseau :
+RTE, le gestionnaire français du réseau de transport en écrêtant 0.3 % du volume global d’EnR, on estime
+d’électricité entre 400 kV et 63 kV, gère le réseau obtenir d’ici 2035 une économie de 7 milliards
+classique, les raccordements avec les industriels, d’euros sur les investissements réseau.
+ainsi que les raccordements avec les plus gros
+producteurs d’EnR.
+Le réseau de transport d’électricité se comporte
+comme une infrastructure à trois piliers : la tension,
+le courant sur chacune des lignes et la fréquence
+globale du réseau.
+31Une autre solution consiste à changer l’architecture ouvrages, les capacités maximales des batteries,
+de pilotage du réseau électrique. Jusqu’à et les contraintes d’effacement). Tous ces éléments
+maintenant, le pilotage se faisait sur 2 couches : sont les paramètres de l’optimisation que fait le
+le poste électrique (protection locale, temps simulateur. On applique le modèle prédiction-
+en secondes) puis le niveau central (sur une contrôle, dont le principe est de contrôler en boucle
+durée de 10 min). La masse d’informations devient fermée. On analyse l’état du réseau en fonction des
+difficile à gérer en temps réel ; on propose donc différentes actions.
+l’installation d’une couche intermédiaire, qui sera Pour installer ces automates, on utilise une
+une couche de contrôle. Elle gèrera des sous- architecture classique centralisée : avec les
+parties du réseau, entre 5 à 50 postes pour une capteurs et les moyens d’actions dans les
+gestion en boucle fermée. Cela résoudra des postes et chez les producteurs, les données sont
+problèmes de type congestion, par exemple. envoyées sur un calculateur centralisé dans les
+L’opérateur n’est plus pilote mais navigateur : data centers. On cherche actuellement à concevoir
+on passe au niveau du prévisionnel. un mode hybride edge to cloud.
+On fait face alors à des défis sur ces automates
+L’implémentation de cette couche de contrôle cyber-physiques :
+se concrétise par de nouveaux automates •1 . on cherche des méthodes et des moyens de
+adaptatifs sur des zones. Ils permettent de gérer les test adaptés à ces contrôles à boucle fermée
+écrêtements. Vu les constantes de temps, de l’ordre en passant par la co-simulation, comme
+de la minute, on peut mettre en place des actions associer un simulateur de réseau électrique
+automatiques. Ces automates permettent aussi de avec un simulateur de réseau télécom ;
+créer une interface avec les producteurs. L’objectif •2 . on veut aussi déterminer le périmètre de
+est de près de 200 automates en 2035. ces différentes zones d’action d’automates
+pour avoir des critères robustes et évolutifs,
+Les leviers à disposition des automates sont et gérer les interactions entre automates
+les suivants : (chevauchement ou influence) ;
+• ils peuvent changer la topologie du réseau, •3 . on met en évidence le potentiel des systèmes
+en ouvrant par exemple les disjoncteurs pour auto-adaptatifs cloud to edge pour en tirer le
+déboucler le réseau. Cette action est gratuite, maximum d’avantages : économie de bande
+mais augmente le risque de coupure générale ; passante, latence de fonctionnement, résilience,
+• les automates peuvent aussi utiliser robustesse face aux pertes de postes.
+l’effacement de production d’EnR et permettre On cherche aussi à élargir à d’autres problématiques :
+une modulation plus fine de la production, la gestion de la tension permet de dimensionner
+notamment en pilotant la puissance maximale le réseau d’une manière différente par rapport
+que chacun des postes peut intégrer. Cette à la gestion des transits, et donc d’intégrer cette
+action n’est pas gratuite, car les producteurs problématique dans les modélisations.
+sont indemnisés à hauteur de la production
+qu’ils auraient eue, mais le risque de
+déséquilibre sur le réseau est faible ;
+• le troisième levier des automates est la solution
+flexible, en s’aidant des batteries smartwire
+pour modifier légèrement l’impédance
+d’un ouvrage dans la distance électrique et
+l’orientation des flux. Cette option a un coût
+très élevé à l’investissement, mais elle est
+moins chère à l’usage.
+Avec ces leviers, l’automate intègre ses actions
+à un modèle du réseau électrique qui lui permet
+de faire des simulations. On lui fournit le coût de
+ses leviers et les contraintes des zones (comme
+les limites de courant de transit dans chacun des
+323/ AUTOMOBILE ou non, on pourrait avoir les mêmes mobilités
+qu’aujourd’hui avec une flotte divisée par 10, un
+nombre de véhicules qui roulent divisé par 3 et un
+nombre de véhicules stationnés divisé par 15. Les
+La numérisation a permis de réduire la temps de transports seraient aussi réduits.
+consommation des véhicules. De 1990 à 2000, Mais la perspective de véhicules autonomes
+la consommation moyenne d’une voiture par km partagés reste lointaine, probablement au-delà
+a diminué de 6,5 %. Pour une période plus longue de 10 ans, comme l’expose le rapport Pichereau.
+(1990-2010), les chiffres correspondants sont - 17% Le problème est de pouvoir garantir l’absence
+sur la consommation moyenne. La diésélisation a d’accidents. Comme techniquement le pilotage
+apporté une amélioration supplémentaire de 15 %. a recours à l’intelligence artificielle, il faut avoir
+En comparant deux voitures à moteur diesel accumulé suffisamment d’expérience des situations
+avant et après l’introduction de l’injection directe que peut rencontrer un véhicule. Des centaines de
+pilotée (1991), on observe un gain de 26% dans sa milliers de voitures équipées d’enregistreurs roulent,
+consommation. Ce qui a permis cela est le pilotage avec des équipements de repérage et des niveaux
+très fin de l’injection avec des calculateurs de plus en de pilotage autonome variables. Pour construire un
+plus complexes et une pression plus forte au niveau apprentissage permettant d’éviter les accidents,
+du moteur. Il faut contrôler et optimiser un grand on fait des simulations massives à partir des
+nombre de variables. L’une est la consommation et données des scènes de conduites enregistrées,
+les autres les émissions de polluants (oxyde d’azote ou fabriquées à partir de “feuilles blanches”. Ces
+et particules). simulations testent aussi les réactions du système à
+Sur l’essence, l’injection électronique a commencé des événements rares.
+bien avant. En 1984, on utilisait déjà 2Ko de mémoire Les processeurs qui assurent le pilotage des
+avec un gain de 15%. Puis l’injection directe est voitures sont du type neuromorphique. Ils sont
+arrivée, avec un gain supplémentaire de 10%. embarqués, seul moyen pour prendre assez
+D’autre part, les transmissions automatiques rapidement les décisions de conduite. Mas les
+consomment 20 à 25% de moins que les modèles statistiques dont ils disposent doivent être
+boîtes mécaniques. rafraîchis périodiquement, et seuls des ordinateurs
+La dernière étape de numérisation concerne très puissants peuvent les leur fournir.
+l’optimisation à partir de la quinzaine de Les plus avancés sont des constructeurs
+combinaisons possibles entre le moteur thermique, américains, Tesla et Waymo. Tesla a choisi
+la boîte à crabot, le moteur électrique, ce qu’on de développer lui-même ses processeurs et
+appelle la motorisation hybride ses ordinateurs. Waymo prévoit une voiture
+La numérisation a bénéficié à l’ensemble de la flotte autonome équipée de 5 lidars (méthode de
+automobile. Cela n’a pas empêché pour le transport télédétection et de télémétrie semblable au radar),
+routier une hausse en termes de proportion 27 caméras, 6 radars et d’une énorme puissance
+d’émission de C0 en Europe. de calcul.
+2
+La sévérisation des normes d’émission des En conclusion, la numérisation, qui a révolutionné
+véhicules neufs imposera une part croissante de les moteurs, aura désormais un impact direct
+véhicules électriques ou hybrides rechargeables, secondaire sur la consommation. La grande
+au détriment des véhicules thermiques. Leur part transformation, c’est l’assistance à la conduite. Au
+de marché devrait atteindre 40 % en 2030. On niveau extrême du véhicule autonome auto-partagé,
+n’envisage toutefois guère de changement au on pourrait réduire considérablement le nombre
+niveau de la consommation d’énergie. de véhicules et de kilomètres parcourus. C’est une
+perspective encore lointaine, qui nécessitera des
+Par contre, l’impact des véhicules auto-partagés progrès techniques et des changements sociaux
+peut être important : le nombre total de km et politiques. Mais le bouleversement est amorcé,
+parcourus pourrait baisser de 30 à 40%. Les et cela oblige dès maintenant les constructeurs de
+scénarios extrêmes des simulations (ex Lisbonne), voitures à établir des rapports beaucoup plus étroits
+montrent qu’en gardant les trains et métros et en avec la conception des composants électroniques
+remplaçant les bus par des robots-taxis, partagés et des ordinateurs.
+33En matière de R&D, on peut retenir les 4/ AÉRONAUTIQUE
+recommandations du rapport Pichereau5 de
+renforcer les efforts. Notamment sur :
+• l’IA (données, connaissances, algorithmes
+et systèmes) des véhicules automatisés Les principaux usages du numérique sont la
+et connectés, ainsi que des véhicules et simulation, les équipements de pilotage, les analyses
+systèmes de transport autonomes ; de données et la maintenance prédictive.
+• les interactions entre le conducteur et le La simulation va jusqu’à faire « voler au sol » les
+système automatisé (CNRS notamment) ; avions que l’on conçoit. Les gains en temps et
+• la mise au point d’une intelligence artificielle sûre, coût de conception, et en sobriété des avions,
+de confiance, vérifiable et explicable ; sont considérables. Mais les besoins de calcul sont
+• la cybersécurité et la sécurisation des échanges énormes, et Airbus utilise des ordinateurs parmi les
+des données des véhicules automatisés ; plus puissants. Il est important de rappeler que cela
+• l’architecture électrique et électronique du a un impact environnemental positif, en permettant
+véhicule ; d’aller plus loin dans la frugalité des aéronefs.
+• les logiciels de reconnaissance de forme. Les équipements de pilotage comportent un
+nombre croissant de moteurs électriques, qui
+agissent sur des gouvernes de plus en plus fines.
+L’analyse de données permet à Airbus d’offrir des
+services de maintenance prédictive qui comptent
+de plus en plus dans son activité. C’est la plate-forme
+Skyways, utilisée par beaucoup de compagnies
+aériennes. La puissance d’Airbus est suffisante pour
+qu’il ait pu garder le contrôle de cette plate-forme,
+alors qu’il l’a mise au point avec Amazon.
+L’apport que peuvent avoir les technologies
+numériques à la décarbonation du trafic aérien
+ne sont pas négligeables notamment sur
+l’optimisation des trajectoires de vol : un des leviers
+de décarbonation du secteur aérien est d’utiliser
+finement la modélisation météorologique pour
+profiter au mieux des vents afin de réaliser des
+économies importantes en vol. Cette optimisation
+nécessite aussi de grandes puissances de calcul.
+5- Le déploiement européen du véhicule autonome : Pour un renforcement des projets européens, par Damien Pichereau
+345/ BÂTIMENT ET Avec les acteurs du numérique, de l’énergie et des
+AMÉNAGEMENT services de l’État, trois objectifs sont poursuivis :
+• un objectif technologique, touchant
+l’interconnexion du réseau, pour faire de
+l’effacement par exemple ;
+L’association du numérique, de la construction • un objectif économique, pour obtenir un
+et de l’urbanisme comporte plusieurs aspects : modèle économique viable des smart grids ;
+• le BIM est un système permettant de • un objectif réglementaire pour, avec les
+rassembler tous les intervenants d’une partenaires, expliquer aux services de
+construction : conception, exécution, contrôle l’État comment faire évoluer les modèles
+des travaux. Il peut être défini comme une économiques de l’énergie. Concernant ce
+maquette numérique permettant de partager point, les premiers travaux ont débuté en
+les informations en temps réel afin d’assurer 2015, et finalement en 2021 un décret sur les
+la conformité entre la conception et la réglementations a été adopté.
+réalisation. Cette maquette permet aussi de
+gérer de façon optimale le bâtiment dans la Dans le but de piloter en temps réel et de visualiser
+durée grâce à cette bibliothèque de données. la consommation d’un quartier, la première étape
+De plus, on a un jumeau numérique pour s’est faite sur une parcelle privée : un îlot urbain
+modéliser le comportement du bâtiment comprenant un bâtiment de bureaux, un bâtiment
+et sa consommation, ou pour tester des de logement et un logement élevé. Cette étape du
+configurations architecturales différentes projet a été livrée en 2015 et a montré une baisse
+(dans le but de mieux concevoir en fonction de 60% de la consommation globale. La deuxième
+du climat et des apports solaires, mais aussi étape était à l’échelle du quartier ; la géothermie a
+des contraintes de dimensionnement comme été utilisée, et la consommation globale énergétique
+les contraintes sismiques). De plus, avec le a encore diminué. . Le troisième exemple, dans
+BIM, des contraintes techniques, juridiques, de un quartier de Lyon, a permis de concrétiser une
+formation sont prises en compte ; plateforme de service urbain au niveau d’un îlot.
+• une plateforme de service urbain pour la Cette plateforme est garantie dans le temps par un
+gestion des bâtiments donne une ouverture contrat urbain.
+aux nouveaux opérateurs urbains. Avec les
+compteurs communicants, on peut gérer
+et faire de l’effacement à distance pour une
+production et distribution d’électricité à l’échelle
+du bâtiment (câblages etc.) ;
+• le dernier aspect est d’intégrer le bâtiment à
+l’échelle du quartier.
+Le smart grid a changé d’échelle et tend vers le
+quartier. Les retours d’expérience montrent qu’un
+travail d’analyse et d’optimisation est nécessaire.
+En 2021, un bâtiment a pu être piloté avec un outil
+qui récupère en temps réel la consommation et la
+production énergétique.
+Concrètement, on a trois niveaux à traiter :
+l’infrastructure réseau, la gestion de tous les
+systèmes d’information et la conception de
+l’aménagement urbain.
+35“SMART GRID ET ÉCO-QUARTIER: RETOUR D’EXPÉRIENCE”.
+LES EXEMPLE S DE BATIGNOLLES ET ISSYGRID
+Les défis relevés avec l’exemple de Batignolles sont :
+• on a rassemblé les différents acteurs numérique, énergétique
+et immobilier ;
+• le terrain de jeu s’est élargi, avec une partie résidentielle et tertiaire
+sur une surface près de 300 000 m2 ;
+• le projet a été investi sur fonds propres, avec un budget très bas
+pour le prix d’un démonstrateur, montrant qu’on peut mener des
+opérations importantes avec un budget raisonnable.
+Pour Issygrid, même si les plus vieux bâtiments datent de moins de
+10 ans, la remontée des informations globales (du réseau électrique,
+logement, résidentiel) a rencontré certaines difficultés. Par exemple,
+pas moins de 14 systèmes étaient à interconnecter, alors que ces
+systèmes n’étaient pas tous standardisés par le même protocole.
+Cette difficulté a été dépassée, malgré les problèmes techniques et
+la méfiance de la population pour utiliser le monitoring énergétique
+(environ 50% des habitants). Les premières logiques d’effacement ont
+pu être testées grâce au pilotage avec la standardisation du système
+numérique. Concernant le profil énergétique, la chaleur renouvelable
+a atteint 85% des besoins, à comparer à 50% à Paris
+Dans le but d’augmenter la performance, des capteurs ont été
+ajoutés avec l’aide des opérateurs de réseau : CPCU (réseau urbain),
+eau de Paris (géothermie profonde), Enedis (réseau électrique) et
+les bailleurs sociaux. Avec ce travail, la remontée de l’information
+est devenue possible, même à l’échelle des particuliers (avec des
+contrats de consentement, on atteint 90% d’adhésion). Puis une
+maquette numérique du quartier a été construite pour comprendre
+les consommations annuelles et mensuelles, et on a pu montrer que la
+géothermie fonctionne bien ; même constat pour le réseau de chaleur,
+par contre la globalisation ne fonctionne pas aussi parfaitement.
+On a aussi constaté que l’autoconsommation collective est plus
+efficace que l’individuelle. Ceci requiert toutefois la discipline d’utiliser
+ces modalités à des heures précises et demande une traçabilité des
+habitants (grâce ici aux blockchains déjà mis en place).
+En conclusion, trois sujets importants résument les défis et les difficultés
+sur le nouvel écosystème du quartier: la standardisation des protocoles
+informatiques, le jumeau numérique et la flexibilité.
+Hors électronique-informatique, ces secteurs applicatifs ne voient que les
+bénéfices du numérique :
+• aide à la conception, permettant de gagner du temps et de l’argent
+(ex : en aéronautique, le remplacement des souffleries par
+des simulateurs) ;
+• jumeaux numériques et maintenance ;
+• organisation de l’entreprise (EDF).
+Du point de vue énergétique, les principales conséquences positives sont
+le fait des usagers :
+• réduction de la consommation (voiture, avion, bâtiment) ;
+• efficacité des usages : si le concept de voiture autonome se généralisait
+on économiserait 30 % à 40 % de l’énergie.
+363705
+CONCLUSION
+ET RECOMMANDATIONS
+La place du numérique dans la transition énergétique numérique dans la plupart des activités, et la
+vers une économie décarbonée est considérable. protection du patrimoine applicatif des utilisateurs.
+Même s’il ne doit pas se soustraire à l’obligation Il apparaît cependant que le recours à des
+d’efficacité énergétique, sa consommation d’une dispositifs de calcul spécialisés mis en œuvre
+électricité qui est de plus en plus décarbonée ne doit par de l’électronique classique ou du quantique,
+pas être un obstacle. Cependant, l’accroissement forme la seule voie envisageable actuellement
+considérable des besoins de calcul et du nombre pour continuer à gagner en performance,
+d’équipements - auquel rien ne semble devoir donc en quantité d’applications possibles avec une
+mettre fin - tend à l’augmenter, pour la fabrication dépense énergétique maîtrisée (voir rapport de
+et le fonctionnement. l’AdT : Les technologies matérielles supports du
+L’impact de la fabrication ne se limite pas à numérique futur, Février 2022). La contrepartie est
+l’électricité consommée. Toute la chaîne est en alors que le logiciel devient dépendant du matériel
+cause, depuis l’extraction des matériaux jusqu’au et doit prendre en compte explicitement ses
+recyclage. Malheureusement, la plus grande partie contraintes physiques.
+de cette fabrication se fait hors d’Europe, surtout en Cela impose une véritable révolution aux fabricants
+Asie, mais on peut au moins prescrire le recyclage de circuits intégrés, aux architectes de systèmes et
+et interdire l’obsolescence programmée. aux programmeurs. L’introduction du parallélisme
+L’introduction du numérique est associée à la oblige à revoir 90 % des logiciels. En même temps,
+fois à la conception de nouveaux produits, à de le développement de l’intelligence artificielle, ainsi
+nouveaux services, à une organisation plus efficace que le recours à des accélérateurs de traitement
+des entreprises et à une modification des usages. spécialisés à la place des processeurs d’usage
+Tout cela aide à réduire les impacts énergétiques, général, obligent à des interactions beaucoup plus
+même si ce n’est qu’une partie des objectifs des étroites entre les constructeurs et leurs clients.
+entreprises. Celles-ci respectent les prescriptions C’est une transformation radicale, mais c’est
+environnementales, et cherchent parfois à les probablement à ce prix que numérique et énergie
+devancer, mais elles sont d’abord préoccupées pourront se compléter pour offrir à la société dans
+par les prix de revient (dont le coût de l’énergie) son ensemble un progrès durable. Un des aspects
+et la clientèle. les plus importants est le changement demandé
+aux programmeurs, en compétences, localisation,
+ÉLECTRONIQUE, INFORMATIQUE, méthodes de travail. Cet ensemble de défis va mettre
+à l’épreuve les ressources et les compétences
+TÉLÉCOMMUNICATIONS
+européennes dans tous les compartiments du jeu,
+Ici, la consommation d’énergie devient un obstacle avec de forts appels à la R&D. Pour l’Europe, qui
+à la réalisation et au fonctionnement des systèmes, avait pris du retard, c’est une chance nouvelle, à
+alors que les besoins de calcul et de transmission condition de savoir l’exploiter.
+ne cesseront de croître, et qu’on approche des
+limites de miniaturisation des circuits intégrés Pour les circuits intégrés, STMicroelectronics,
+(loi de Moore). premier constructeur européen, qui s’appuie
+La loi de Moore, en proposant des dispositifs beaucoup en recherche sur le CEA/LETI, est en
+universels de calcul de plus en plus performants à bonne position sur l’Internet des objets. Son objectif
+des coûts de plus en plus réduits,et la concentration est 80 % d’edge en 2030, en intégrant les logiciels
+industrielle qu’elle a provoquée en matière de dans les microprocesseurs, en leur associant des
+microprocesseurs, ont privilégié le développement réseaux de neurones, et en ajoutant de la mémoire.
+séparé du logiciel et du matériel. Cette séparation Cependant, à moins d’aides massives, ST ne
+a provoqué la formidable dissémination du peut suivre la course à la miniaturisation ultime,
+38CONCLUSION menée par deux champions asiatiques : Samsung le rendement des moteurs et accroître le confort.
+et TSMC. Intel, qui avait semblé renoncer, a décidé de Cela n’a cessé de se développer. Mais on arrive
+ET RECOMMANDATIONS
+se remettre à niveau, et de mener une politique plus à une rupture, qui va demander une électronique
+ouverte : davantage de dialogue avec ses clients, nouvelle, fondée sur l’intelligence artificielle et des
+et sans doute la construction d’une usine en Europe. infrastructures de clouds connectés, du edge
+Pour le reste de la chaîne du numérique local dans la voiture au cloud central : la voiture
+(processeurs parallèles, serveurs, autonome. Celle-ci devrait changer profondément
+supercalculateurs, opérateurs quantiques), les usages et permettre enfin une utilisation
+l’Europe doit maintenir et amplifier un fort niveau rationnelle d’un matériel qui passe aujourd’hui
+de soutien. trop de temps à ne pas servir. Avec les voitures
+L’European Processor Initiative se donne pour autonomes partagées, on pourrait gagner 30 %
+2030 l’objectif de 65% à 70 % d’approvisionnement à 40 % d’énergie de fabrication. Les changements
+européen sur l’ensemble des matériels ; cet objectif dans la fabrication et l’exploitation seront aussi
+prend en compte la consommation d’énergie. considérables ; c’est l’entrée dans l’Internet des
+Le programme EuroHPC vise à maintenir l’Europe objets : davantage d’interactions avec les fabricants
+et la France dans le groupe des 4 leaders de circuits intégrés et de capteurs, orientation
+mondiaux de la puissance de calcul. Par ailleurs vers le traitement local (edge computing). Cela va
+en Europe la France est le seul pays européen demander des compétences nouvelles.
+actif sur la totalité de la chaîne, de ST à Atos
+en passant par Kalray et OVH. Cela lui donne AÉRONAUTIQUE
+la responsabilité d’une prise de leadership dans
+la construction d’une position commune. La simulation va jusqu’à faire « voler au sol » les
+En télécommunications, l’événement actuel est le avions que l’on conçoit. Les gains en temps et
+passage à la 5G, qui va ouvrir l’Internet des objets. coût de conception, et en sobriété des avions,
+Même si elle est énergétiquement plus efficace, il va sont considérables. Mais les besoins de calcul sont
+falloir assumer un accroissement considérable du énormes, et Airbus utilise des ordinateurs parmi les
+trafic sans que cela se répercute sur les émissions plus puissants.
+de CO. Le recours aux achats d’électricité bas L’autre grand usage de l’électronique, c’est l’analyse
+2
+carbone est un des moyens, mais il faut aussi agir, de données pour la maintenance prédictive. La
+comme pour l’ensemble de l’électronique, sur la puissance d’Airbus est suffisante pour qu’il ait pu
+consommation électrique des systèmes. garder le contrôle de la plate-forme de service
+« Skyways » utilisée par beaucoup de compagnies
+ÉLECTRICITÉ aériennes, alors qu’il l’a mise au point avec Amazon.
+C’est en grande partie grâce a l’introduction du BÂTIMENT
+numérique que la production et la distribution
+d’électricité font face à l’introduction des énergies Le passage au jumeau numérique (BIM) est un
+renouvelables intermittentes et à la décentralisation facteur d’organisation d’une profession dispersée.
+qui va avec. Ces modifications profondes, qui En même temps, cela pose des problèmes de
+touchent à la fois la technologie, l’organisation standardisation et de propriété des données. Un
+des grands opérateurs et leurs rapports avec le enjeu est de concevoir un ensemble énergétique
+gouvernement, les règles du marché, demandent à l’échelle du quartier : on peut réduire la
+beaucoup de recherche, chez les opérateurs et consommation de 60 %. Et l’autoconsommation
+dans la recherche publique. est beaucoup plus efficace qu’au niveau individuel.
+EDF, avec ses filiales, veut être l’opérateur des Cependant, il faut prendre garde au risque que
+données, au service de la décarbonation de les majors de la donnée monopolisent la relation
+l’ensemble du secteur. avec les collectivités locales et imposent une
+standardisation fondée sur le profit plutôt que
+AUTOMOBILE sur l’urbanisme.
+Il y a une trentaine d’années que l’électronique
+s’est introduite dans les voitures, pour améliorer
+39RECOMMANDATIONS 3/ Vis-à-vis de l’Europe, construire la solidarité
+1/ Prendre en compte l’ensemble des causes de et faire valoir nos atouts
+consommation des systèmes numériques, de la Asiatiques et Américains engagent des forces dont
+fabrication au fonctionnement : l’objectif est la domination, ou au moins l’autonomie.
+• les fortes divergences entre les études En énergie, la question est aujourd’hui clairement
+viennent des lacunes de l’analyse. Pour que posée, mais il faudra des années pour faire
+ces études soient de vrais outils d’aide à la valoir nos atouts. En numérique, avec la nouvelle
+décision, il faut y remédier. Cela implique de interaction matériel-logiciel, c’est désormais l’avenir
+standardiser ce que sont les points de mesure d’une grande partie de nos industries et services
+d’un système numérique et comment il en qui est en jeu. La France a des atouts, notamment
+résulte une mesure globale. De la recherche sa présence sur l’ensemble de la chaîne du
+est nécessaire par exemple dans le domaine numérique.
+peu exploré des relations entre algorithmes, • Pousser l’European processeur initiative, en
+notamment algorithmes distribués, et se donnant pour 2030 l’objectif de 65–70 %
+consommations (où il est déjà évident que la d’approvisionnement européen ;
+quantité d’échanges peer to peer comme ceux • ainsi que l’initiative Euro HPC ;
+intervenant dans des algorithmes de bitcoin • partage européen des pratiques et standards
+ou de blockchain n’est pas généralisable, cette en cyber-sécurité. Encadrer la diversité
+quantité croissant comme le carré du nombre des transcriptions nationales des règles
+de participants) ; européennes ;
+• cette connaissance globale permettra • pousser le Climate Neutral Data Center Pact ;
+d’optimiser l’ensemble coût-performance- • Imposer la recyclabilité et interdire
+qualité environnementale des systèmes, l’obsolescence programmée.
+y compris les règles et protocoles d’échange
+de données, et en y intégrant notamment les
+data centers ;
+• et de concevoir des systèmes « juste assez »,
+tenant compte au plus juste de l’ensemble des
+contraintes.
+2/ Anticiper l’interaction nouvelle entre matériels
+et logiciels
+Les besoins en performance et en volume du
+traitement de l’information ne vont cesser de
+croître, alors que la technologie des circuits intégrés
+arrive aux limites de la miniaturisation. La voie
+d’avenir est celle des opérateurs spécialisés, donc
+une interaction étroite entre fabricants d’appareils et
+de composants. La France doit savoir tirer parti de
+cette nouvelle donne.
+• Investir en R&D sur les technologies
+informatiques de nouvelle génération ;
+• former des programmeurs adaptés à une
+interaction étroite avec les concepteurs de matériel
+et capables de rénover le patrimoine logiciel,
+en assurant aussi la cybersécurité de l’ensemble.
+• Redévelopper le patrimoine applicatif des logiciels
+pour bénéficier de l’apport des composants
+spécialisés et du parallélisme massif ;
+• pousser les réseaux de neurones, le calcul
+neuromorphique, et l’interprétation de l’intelligence
+artificielle, en visant le véhicule à conduite assistée
+ou partagée (rapport Pichereau), sans négliger
+l’accompagnement socio-économique.
+404133 rue Rennequin
+75017 - PARIS
+Tél : +33(0)1 55 35 25 50
+com@anrt.asso.frwww.anrt.asso.fr

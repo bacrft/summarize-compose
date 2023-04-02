@@ -1,0 +1,8 @@
+TEXT:
+
+{chunk}
+
+summarize all the above text while maintaining all relevant information from it. Break down the text into its main components, identify the most important points and concepts, and craft a summary that is concise yet comprehensive at the same time. Make sure your summary accurately conveys the original message of the text while also providing readers with a high-level overview of what they can expect to find in the text. Ensure that the summary is well-structured and easy to comprehend, with no unnecessary details or filler.
+
+CONCISE SUMMARY:
+

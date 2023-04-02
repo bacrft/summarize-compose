@@ -1,0 +1,320 @@
+Des réponses aux idées reçues
+sur la transition énergétique
+sur : decrypterlenergie.org
+D Bâtiment
+La révolution numérique fera-t-elle
+exploser nos consommations
+d’énergie ?
+Inflation exponentielle du flux de données, objets connectés en pagaille, data
+centers poussant comme des champignons… La « révolution numérique » qui
+prend place dans nos sociétés est gourmande en équipements électroniques,
+eux-mêmes voraces en énergie électrique. Au point de susciter des
+inquiétudes, voire des fantasmes. Qu’en est-il aujourd’hui et qu’en sera-t-il
+demain ?
+M
+Publié le 7 décembre 2017
+Modifié le 10 février 2020
+En quelques mots
+De nombreux acteurs alertent régulièrement sur la consommation d’électricité effrénée engendrée par Internet et les usages numériques de plus en
+plus intensifs.
+En dressant un état de lieux des équipements du numérique en France, puis en estimant l’impact des principales tendances d’évolution envisagées,
+il est possible d’aller au-delà des annonces chocs et de les relativiser. La forte croissance annoncée des usages du numérique ne se traduira pas
+nécessairement par une pression ingérable sur notre système électrique. Mais, en investissant tous les secteurs économiques, le numérique a pour
+l’instant tendance à entretenir ou amplifier d’autres comportements consommateurs d’énergie. Les promesses d’un numérique vertueux favorisant
+les économies d’énergie sont encore loin d’être vérifiées.
+En outre, il faut tenir compte des nombreuses autres pressions sur l’environnement générées par le numérique, notamment lors de la production et
+de la mise au rebut des appareils électroniques.
+Article issu de : decrypterlenergie.org
+A B Page 1 / 7
+@decrypterlenergie Décrypter l'énergie« Révolution numérique » : de quoi parle-t-on ?
+L’utilisation croissante – pour de nouveaux usages – de données informatisées dans tous les secteurs de la vie privée et professionnelle,
+échangées via des réseaux comme Internet, est considérée comme une « révolution numérique ». Ces nouveaux usages nécessitent des
+équipements, qui peuvent être regroupés en trois grandes catégories :
+les appareils terminaux en contact avec les utilisateurs : ordinateurs, tablettes, smartphones, écrans, objets connectés, box, décodeurs TV,
+etc. ;
+les serveurs et appareils de stockage de données des organisations fournissant ou utilisant des services numériques (grandes entreprises du
+web, banques, administrations…), parfois regroupés dans d’immenses centres de données (data centers) ;
+les infrastructures des réseaux permettant aux données numériques de circuler (antenne-relais, câbles, fibres, répartiteurs, etc.).
+Quelques chiffres-clés donnent une idée de l’évolution du numérique.
+La proportion d’utilisateurs d’Internet est passée de moins de 10 % de la population mondiale en l’an 2000 à 35 % en 2012. Le volume de données
+échangées a plus que doublé chaque année jusqu’en 2002, et continue de croître à un rythme soutenu1.
+Le taux de possession d’un smartphone a quadruplé en France en cinq ans pour atteindre 65 % en 2016. Plus de 80 % des Français ont au moins
+un ordinateur et 40 % une tablette. À la maison, un Français passe quotidiennement 2h30 sur Internet et 3 à 4h devant la télévision (qui est devenue
+numérique)2.Au
+travail, le numérique s’impose également. Un audit récent de 50 organisations (aussi bien des PME que des grandes entreprises) a révélé la
+présence moyenne de dix ordinateurs, trois imprimantes, un point d’accès wi-fi et un à deux autres équipements numériques pour dix salariés, ainsi
+que près de trois serveurs informatiques pour 100 salariés3.
+Cette révolution numérique est souvent présentée comme une des grandes transformations sociétales en cours. Pour certains, elle pourrait
+accompagner et favoriser la transition énergétique en développant des outils et solutions permettant d’optimiser les services et systèmes
+énergétiques. Pour d’autres, elle est le symbole d’une société toujours plus avide d’énergie, en proie à l’ébriété énergétique.
+Article issu de : decrypterlenergie.org
+A B Page 2 / 7
+@decrypterlenergie Décrypter l'énergieImpact énergétique : des chiffres chocs à questionner
+La révolution numérique éveille la crainte d’une explosion du nombre et de l’usage d’équipements électroniques, donc des consommations
+d’électricité. Des médias relaient souvent ces inquiétudes, avec des messages parfois très alarmistes.
+« Les data centers, monstres avides d’énergie » (Libération)
+« Dans 25 ans, la consommation des 500 milliards d’appareils connectés au web égalera celle de l’humanité en 2008. » (Arte)
+« Il ne reste que 7 ans à vivre au web, en 2023 il va mourir. » (Économie Matin)
+Certains chiffres, assénés sans détails sur les périmètres ni sur les hypothèses, sont à prendre avec précaution. Un état des lieux sur le territoire
+métropolitain permet d’y voir plus clair, avant d’envisager les évolutions possibles.
+La consommation des appareils en France métropolitaine
+En l’absence de chiffres extrêmement précis sur la consommation énergétique du numérique en France4, nous devons nous contenter
+d’approximations sur les différents postes.
+Les appareils terminaux et les serveurs
+Pour les appareils terminaux, RTE (le gestionnaire du réseau de transport d’électricité national) estime en 2015 à 22 TWh/an la consommation
+d’électricité des équipements informatiques et audiovisuels dans les logements, et à 26 TWh/an celle des usages informatiques et numériques dans
+le tertiaire (incluant à la fois les appareils terminaux et les serveurs)5.
+Pour estimer plus finement la part des serveurs au sein des entreprises, on peut retenir le chiffre de 170 kWh/an par employé pour la consommation
+des serveurs et commutateurs (basé sur un audit de 50 organisations diverses réalisé par l’Ademe3), et l’extrapoler, ce qui conduit à près de 4
+TWh/an. Environ la moitié sert au fonctionnement des appareils, l’autre à la ventilation et à la climatisation des salles informatiques.
+Viennent ensuite les serveurs et stockages de données externalisés dans des grands centres de données spécialisés. Des chiffres variables
+circulent sur leur consommation d’énergie. Une cartographie répertoriait 156 data centers en France en 20166. On ne connaît pas dans le détail le
+nombre et le type d’appareils qu’ils abritent, mais une étude prospective a estimé leur consommation électrique à environ 6 TWh/an en 2015 : la
+moitié pour les appareils, l’autre pour les périphériques et la climatisation7. Une évaluation d’EDF datée de 2013 fournit une fourchette similaire
+autour de 6 TWh/an8. RTE table lui sur une consommation deux fois moindre5. Une valeur encore différente, et bien plus élevée, est souvent reprise
+dans les médias : 9 % de la consommation d’électricité nationale, soit 40 TWh/an. Ce chiffre résulte d’une confusion : il se réfère à un périmètre
+beaucoup plus large incluant tous les appareils informatiques9. Une valeur de l’ordre de 6 TWh/an paraît l’approximation la plus robuste.
+Pour l’ensemble des serveurs et stockages dans les entreprises et les data centers, le total probable est donc d’environ 10 TWh/an : la moitié pour
+les appareils, l’autre pour les périphériques et la climatisation des locaux. Ces chiffres sont comparables à une estimation faite pour l’Allemagne en
+201210.
+Article issu de : decrypterlenergie.org
+A B Page 3 / 7
+@decrypterlenergie Décrypter l'énergieLes infrastructures des réseaux et télécommunications
+Enfin, la consommation des infrastructures des réseaux et télécommunications est estimée dans une étude à 3,5 TWh/an en 20157. On peut
+corroborer cette valeur en extrapolant les consommations rapportées, par exemple, par l’opérateur SFR (0,73 TWh en 2015 pour environ 22 % de
+parts de marché11).
+Poste Consommation (2015)
+Appareils terminaux domestiques ~ 22 TWh
+Appareils terminaux professionnels (hors serveurs) ~ 21 TWh
+Serveurs et data centers (appareils) ~ 5 TWh
+Serveurs et data centers (locaux) ~ 5 TWh
+Infrastructures de réseaux ~ 3,5 TWh
+Figure 1 : Récapitulatif des consommations d’électricité du numérique en France métropolitaine
+On aboutit à un total de 56,5 TWh, représentant près de 12 % de la consommation nationale d’électricité et mobilisant l’équivalent de huit réacteurs
+nucléaires. C’est un niveau de consommation conséquent, sans être gigantesque. On peut noter qu’une évaluation similaire réalisée en 2008
+aboutissait à une valeur très comparable12. Il ne semble donc pas y avoir eu d’explosion des consommations, les augmentations d’usage dans
+certains secteurs étant compensées par des progrès sur l’efficacité énergétique.
+Un mot sur « l’énergie grise »
+Les appareils électroniques sont souvent montrés du doigt non seulement pour leur consommation d’électricité, mais aussi pour l’énergie
+consommée pour leur fabrication et l’extraction des matériaux qui les composent, appelée l’énergie grise. Celle-ci est difficile à estimer, car elle
+dépend de nombreux paramètres et d’hypothèses sur des activités situées majoritairement en Asie. Des analyses de cycle de vie ont été réalisées
+sur certains équipements, mais avec des conclusions variables4. Les chiffres cités ici ne permettent donc que de premières approximations, faute
+d’études comparables sur le sujet.
+Les valeurs que l’on trouve dans les études préparatoires des règlements européens sur l’efficacité énergétique des produits font état, selon les
+appareils, de niveaux d’énergie grise représentant 5 % à 50 % de la consommation d’énergie de fonctionnement pour les appareils fixes13. Pour les
+smartphones (qui sont économes en électricité et à faible durée de vie) l’énergie grise peut représenter cinq fois plus que ce que l’appareil
+consommera sur sa durée de vie.
+En ventilant ces valeurs sur les parcs d’équipements de France métropolitaine, on aboutit à une énergie grise cumulée représentant environ 15 %
+de l’énergie de fonctionnement totale calculée précédemment. Mais il manque un certain nombre de petits équipements annexes (câbles,
+périphériques d’ordinateurs, chargeurs, gadgets, etc.) amenant à penser que l’on est probablement plus proche de 20 %. Si l’on passe à un
+raisonnement en bilan carbone, le poids de la fabrication devient encore plus élevé, car elle a lieu essentiellement en Chine où l’électricité est
+encore très émettrice de gaz à effet de serre.
+Ce qui est sûr, c’est qu’à mesure que les appareils deviennent plus efficaces en énergie et plus mobiles, l’impact de la fabrication a tendance à
+devenir de plus en plus important dans leur bilan écologique. Ce qui justifie d’y accorder toute l’attention nécessaire, et de faire des efforts bien plus
+marqués qu’aujourd’hui pour rendre les appareils électroniques plus durables, réparables, réutilisables, et recyclables.
+Et demain ?
+Les tendances lourdes
+Tout porte à croire que la révolution numérique va se poursuivre à un rythme soutenu. La croissance des flux de communication et de données va-t-
+elle provoquer une envolée des consommations d’électricité ?
+Le trafic mondial de données échangées sur Internet pourrait passer de 6 à plus de 100 Gigabytes par mois et par individu1 ; en cause notamment la
+taille toujours plus grande des fichiers attachés à nos courriels ou la définition de plus en plus fine des vidéos en ligne qui se multiplient sur le Web.
+En outre, de nombreuses activités vont faire un usage grandissant de « Big Data », multipliant les flux de données. Les nouveaux data centers sont
+de plus en plus pharaoniques : l’opérateur OVH a par exemple construit à Gravelines le plus grand centre de données d’Europe pour accueillir sur
+20 000 m2 plusieurs centaines de milliers de serveurs14.
+À cela vont s’ajouter de plus en plus d’objets connectés, notamment dans des systèmes domotiques et des bâtiments « intelligents » de plus en plus
+nombreux. Certaines études parlent de 50 milliards de ces objets dans le monde vers 2020, et évoquent même le chiffre astronomique de 200 par
+individu à long terme15 ! Il faut toutefois relativiser : si un net intérêt pour ces objets ressort de ces enquêtes16, l’engouement est loin d’être
+généralisé. En outre, ces appareils ne requerront pas tous d’être branchés au réseau électrique. Les plus petits d’entre eux peuvent fonctionner
+grâce à l’énergie solaire ou ambiante (énergie thermique du corps, énergie cinétique, etc.), comme cela commence à être le cas.
+Article issu de : decrypterlenergie.org
+A B Page 4 / 7
+@decrypterlenergie Décrypter l'énergieTempérer la gloutonnerie
+Il faut également prendre en compte les tendances qui viendront tempérer la gloutonnerie énergétique annoncée.
+En premier lieu, le temps disponible pour s’adonner à des activités numériques n’est pas extensible à l’infini. Des phénomènes de saturation et de
+substitution commencent à être perceptibles, et les consommations des appareils ne s’additionnent plus mathématiquement. Par exemple, les
+ventes d’ordinateurs fixes sont en berne depuis plusieurs années, car nous les remplaçons par des portables (moins énergivores) et nous les
+utilisons moins car les smartphones (encore moins énergivores) prennent le relais.
+Ensuite, un certain nombre d’appareils actuels vont être rendus obsolètes par la miniaturisation grandissante des supports numériques et la
+disponibilité accrue des réseaux. Lecteurs de DVD, consoles de jeux, PC de bureaux vont probablement se raréfier au profit de terminaux légers
+allant chercher les informations sur des serveurs. La tendance au nomadisme va aussi privilégier les appareils fonctionnant sur batterie,
+intrinsèquement plus économes.
+Enfin, des progrès technologiques permettent à tous les appareils de devenir plus efficaces en énergie. Ces progrès sont amenés à se poursuivre, et
+même à s’intensifier par l’adoption de réglementations de plus en plus strictes au niveau européen17. Les besoins en climatisation des data centers
+vont également se réduire grâce à une meilleure conception des locaux et à la réutilisation de la chaleur dégagée pour chauffer des bâtiments
+proches. Jusqu’où ces progrès sont-ils possibles ? Greentouch, un consortium de professionnels qui a travaillé sur les réseaux numériques du futur,
+annonce par exemple des potentiels pour le moins spectaculaires : il serait possible de réduire de 98 % la consommation d’électricité des réseaux
+de télécommunication en dix ans18.
+Une estimation quantitative
+Quelles tendances vont l’emporter ? Il est possible de réaliser des hypothèses d’évolution sur les différents postes pour les années à venir, puis de
+calculer les consommations d’énergie résultantes. Nous avons réalisé un tel calcul pour la France, en imaginant un développement très soutenu des
+usages numériques.
+Hypothèses
+Tendances passées
+d’évolution sur Justification Source
+sur 2010-2015
+2015-2030
+Consommation des +10 % par an
+Augmentation des capacités, nouvelles générations de réseaux,
+infrastructures de +5 à 10 % par an (quadruplement 11
+flux plus importants
+réseaux en 15 ans)
++8 % par an Le projet Grand Paris table par exemple sur 1000 MW de besoins
+Nombre de serveurs et+6
+% par an environ (triplement en 15 supplémentaires en data centers d’ici 2030 (soit plus que la 19
+stockages
+ans) capacité totale actuelle en France)
+Puissance électrique
+par serveur et
+De meilleures technologies et aménagements des data centers
+stockage en place -3 % à -10 % par an
+-4 % par an rendent possibles des réductions de 40 % ou plus. Nous les 20 et 10
+(appareils et selon les appareils
+supposons largement en place d’ici 2030.
+climatisation des
+locaux)
+Instituts de
+suivi des
+Les ménages et entreprises sont déjà très équipés, les taux
+Nombre d’ordinateurs +3 % par an environ +2 % par an ventes (GfK,
+d’équipement devraient donc se stabiliser
+Gartner,MMA…)
+Consommation
+Le basculement des fixes vers les portables et les progrès
+moyenne par -7 % par an environ -7 % par an 21
+technologiques continueront d’entrainer des gains importants
+ordinateur
++8 % par an
+En très forte progression Instituts de
+(triplement en 15
+en fin de période, mais suivi des
+Nombre de terminaux ans pour Poursuite d’une pénétration forte dans les logements, entreprises
+non significatif (les ventes
+légers (tablettes, etc.) atteindre 63 et espaces tertiaires
+tablettes sont apparues (GfK,
+millions
+récemment) MMA…)
+d’appareils)
+Consommation
+Montée en gamme régulière des appareils (écrans, mémoire, etc.)
+moyenne par terminal
+Non significatif +3 % par an et temps d’utilisation en hausse
+léger
+Instituts de
+Poursuite de la pénétration d’écrans dans tous les secteurs (mais suivi des
+Nombre d’écrans +2 % par an environ +3 % par an
+le nombre de moniteurs d’ordinateur va diminuer) ventes (GfK
+Article issu de : decrypterlenergie.org
+A B Page 5 / 7
+@decrypterlenergie Décrypter l'énergie…)
+Consommation Les progrès spectaculaires sur les écrans LED (modèles sur le
+moyenne par écran en -3 % par an environ -5 % par an marché 60 % plus efficaces qu’il y a 5 ans) et l’étiquetage énergie 22
+place vont permettre des gains massifs
+Consommation
+Les progrès et réglementations vont entraîner des gains continus,
+unitaire des autres
+Variable selon les que l’on suppose totalement contrebalancés par les
+appareils numériques Stable 13
+appareils augmentations de performance, un usage accru et l’apparition de
+(boîtiers, switches,
+nouveaux appareils
+consoles, etc.)
+8 par habitant en
+Objets « connectés » moyenne d’ici Difficile de prévoir le succès réel des objets connectés et leur
+(Non connue)
+supplémentaires 2030, soit 520 diffusion dans les bâtiments et les espaces publics
+millions
+Ces objets seront soit de petits appareils (type capteurs, appareils
+Puissance électrique mobiles, etc.) soit des objets déjà existants qui deviennent
+des objets connectés – 1,5 W connectés (ajout d’une fonctionnalité requérant un supplément de 23
+supplémentaires puissance électrique). Nous supposons une moyenne de 1,5 W
+par appareil.
+Figure 2 : Hypothèses sur l’évolution des usages et technologies du numérique d’ici 2030
+Le résultat est une augmentation de la consommation annuelle d’électricité des usages numériques de l’ordre de 25 % d’ici 2030 (+15 TWh/an), soit
+une croissance annuelle moyenne de 1,5 %. Ces 15 TWh représentent 3 % de la consommation nationale actuelle. Il s’agit donc bien d’une hausse,
+mais qui est loin d’être exponentielle et de risquer de mettre à mal notre système électrique. Ce résultat est d’ailleurs cohérent avec la prévision de
+RTE d’une hausse très modérée des consommations des technologies de l’information et de la communication sur les cinq prochaines années5.
+Cette évolution suppose toutefois la poursuite effective des efforts d’efficacité énergétique, ainsi qu’une certaine maîtrise dans la conception et la
+prolifération de nouveaux appareils.
+L’impact du numérique sur la consommation d’énergie dans d’autres secteurs
+Le numérique s’immisce actuellement dans le fonctionnement de tous les secteurs économiques, et à ce titre il a théoriquement la capacité
+d’entretenir les pires comportements de gaspillage énergétique comme de favoriser des comportements plus sobres. Force est de constater que
+jusqu’à présent, ce sont surtout les premiers qui prévalent. Par exemple, la croissance continue des flux de transports motorisés est soutenue
+notamment par les fonctionnalités offertes par le numérique (comme la possibilité de faire livrer en un clic n’importe quelle marchandise de l’autre
+bout du monde).
+Les entreprises du secteur numérique mettent souvent en avant sa capacité supposée à nous faire économiser de l’énergie. Mais les études et
+exercices prospectifs en ce sens sont généralement trop théoriques, insuffisamment systémiques4 et trop ignorantes des effets rebond24. Si l’on
+regarde par exemple les potentiels suggérés en France par une étude de 2009 commanditée par des grandes entreprises (représentant environ 110
+TWh/an d’économies d’énergie primaire cumulées25), on constate que la majorité des évolutions correspondantes ne se sont pas réalisées (sur la
+généralisation des péages urbains, le développement massif de la domotique, les bienfaits des visioconférences, etc.).
+Il semble donc hasardeux d’affirmer que des effets bénéfiques ponctuels du numérique constatés sur des projets pilotes ou études de cas puissent
+être généralisables et se traduire en baisses de consommation d’énergie systémiques.
+La révolution numérique va indéniablement entraîner un besoin important en équipements électriques dans notre pays, associés à des
+consommations d’électricité. Mais les progrès sur l’efficacité énergétique devraient permettre d’éviter une explosion de la demande
+d’électricité.Pour
+cela, il est nécessaire que les fabricants et opérateurs du secteur recourent systématiquement aux technologies les plus économes, et
+que la priorité soit donnée aux usages du numérique favorisant la transition énergétique. Les politiques et réglementations publiques doivent
+être intensifiées et mises à jour régulièrement, afin notamment de suivre les innovations rapides du secteur et l’apparition de nouveaux
+équipements.Les
+consommateurs de services numériques, que nous sommes tous, ont aussi un rôle important à jouer. Des comportements plus sobres et
+responsables sont possibles pour éviter des flux de données inutiles : maîtriser l’utilisation des e-mails et d’Internet, gérer raisonnablement ses
+fichiers, éteindre ses appareils allumés ou connectés sans raison… mais aussi ne pas acheter systématiquement le dernier appareil à la
+mode ! Le concept de sobriété numérique devient essentiel pour juguler les tendances actuelles26.
+Au-delà de la consommation d’énergie, il convient également de penser à tous les autres dégâts environnementaux dus à la fabrication et à la
+mise au rebut des appareils électroniques : épuisement de matières, pollutions diverses, etc. La route est donc encore longue vers un
+numérique « vert », qui prendrait toute sa part dans la transition énergétique et écologique.
+Sources et références
+1. ↑La dynamique d’Internet – Prospective 2030, Commissariat général à la stratégie et à la prospective, 2013, disponible sur :
+www.strategie.gouv.fr/espace-presse/dynamique-dinternet-prospective-2030
+2. ↑Le baromètre du numérique, CGE-Arcep, 2016, disponible sur : https://www.arcep.fr/cartes-et-donnees/nos-publications-
+Article issu de : decrypterlenergie.org
+A B Page 6 / 7
+@decrypterlenergie Décrypter l'énergiechiffrees/numerique/le-barometre-du-numerique.html
+3. ↑Consommation énergétique des équipements informatiques en milieu professionnel, ADEME, 2015, disponible sur : www.ademe.fr/livre-
+blanc-consommation-energetique-equipements-informatiques-milieu-professionnel
+4. ↑Potentiel de contribution du numérique à la réduction des impacts environnementaux : état des lieux et enjeux pour la prospective, ADEME,
+2016, disponible sur : www.ademe.fr/potentiel-contribution-numerique-a-reduction-impacts-environnementaux
+5. ↑Bilan prévisionnel de l’équilibre offre-demande d’électricité en France, RTE, 2016, disponible sur : www.rte-france.com/fr/article/bilan-
+previsionnel
+6. ↑Quelle est la répartition des data centers en France par région ? , Journal du net, disponible sur : www.journaldunet.com/solutions/cloud-
+computing/1191577-quelle-est-la-repartition-des-data-centers-en-france-par-region/
+7. ↑Impact environnemental de la filière TIC en France, IDATE, 2010, disponible sur : https://docplayer.fr/7690037-Impact-environnemental-de-
+la-filiere-tic-en-france.html
+8. ↑L’efficacité énergétique dans les data centers, ENR’CERT, 2016, disponible sur :
+atee.fr/sites/default/files/ATEE/MDE/Statistiques_etudes/Data%20Center/Etude_EE_Data_Centers.pdf
+9. ↑Une première en France : ENR’CERT valorise les économies d’énergies d’un Data Center, 2016.
+10. ↑Ecodesign Preparatory Study on Enterprise Servers and Data Equipment, Bio by Deloitte et al., 2015, disponible sur :
+bookshop.europa.eu/en/ecodesign-preparatory-study-on-enterprise-servers-and-data-equipment-pbET0415685/
+11. ↑Responsabilité Sociale et Environnementale, SFR, 2016, disponible sur : http://alticefrance.com/sites/default/files/pdf/sfr-group_ddr_2016.pdf
+12. ↑Rapport TIC et développement durable, CGEDD, 2008, disponible sur : http://temis.documentation.developpement-
+durable.gouv.fr/documents/Temis/0063/Temis-0063194/17653.pdf
+13. ↑Études préparatoires liées à la Directive Eco-Conception, disponibles sur : https://ec.europa.eu/info/energy-climate-change-
+environment/standards-tools-and-labels/products-labelling-rules-and-requirements/energy-label-and-ecodesign/rules-and-requirements_en#relatedlinks
+14. ↑Gravelines, le plus grand centre de données d’Europe, OVH, 2013, disponible sur : https://www.wedemain.fr/Le-plus-grand-datacenter-du-
+monde-s-installe-dans-la-Ch-tilicon-Valley_a410.html
+15. ↑More Data, Less Energy : Making Network Standby More Efficient in Billions of Connected Devices, IEA, 2014, disponible sur :
+https://www.iea.org/reports/more-data-less-energy
+16. ↑ Objet connecté : ces produits que veulent (vraiment) les Français ! , LSA Conso, 2016, disponible sur : www.lsa-conso.fr/objet-connecte-ces-
+produits-que-veulent-vraiment-les-francais,231150
+17. ↑Lire à ce sujet l’article Nos consommations d’électricité domestique vont-elles croître inexorablement ? disponible sur :
+decrypterlenergie.org/nos-consommations-delectricite-domestique-vont-elles-croitre-inexorablement
+18. ↑Final Results from Green Meter Research Study. Greentouch, 2015, disponible sur : s3-us-west-2.amazonaws.com/belllabs-microsite-
+greentouch/uploads/documents/GreenTouch_Green_Meter_Final_Results_18_June_2015.pdf
+19. ↑Peut-on gérer la croissance effrénée des data centers du Grand Paris ? , La Tribune, 2015, disponible sur :
+www.latribune.fr/economie/france/peut-on-gerer-la-croissance-effrenee-des-data-centers-du-grand-paris-474994.html
+20. ↑Data Center Efficiency Assessment, NRDC, 2014, disponible sur : www.nrdc.org/sites/default/files/data-center-efficiency-assessment-IP.pdf
+21. ↑Ecodesign Impact Accounting, VHK, 2015, disponible sur :
+ec.europa.eu/energy/sites/ener/files/documents/Ecodesign%20Impacts%20Accounting%20%20-%20final%2020151217.pdf
+22. ↑European TV market 2007 – 2013, Topten EU, 2014, disponible sur :
+www.topten.eu/uploads/File/European_TV_market_2007%E2%80%932013_July14.pdf
+23. ↑Energy Efficiency of the Internet of Things, IEA 4E, 2016, disponible sur : www.iea-4e.org/document/384/energy-efficiency-of-the-internet-of-
+things-technology-and-energy-assessment-report
+24. ↑La face cachée du numérique : l’impact environnemental des nouvelles technologies, F. Flipo et al., 2013, disponible sur :
+https://www.researchgate.net/publication/297712483_La_face_cachee_du_numerique_l’impact_environnemental_des_nouvelles_technologies
+25. ↑Green IT – France 2020, Synthèse « Verte », BCG, 2009, disponible sur : http://img1.lemondeinformatique.fr/fichiers/telechargement/rapport-
+green-it-du-bcg.pdf
+26. ↑Pour une sobriété numérique, SHIFT Project, 2018, disponible sur : https://theshiftproject.org/article/pour-une-sobriete-numerique-rapport-
+shift/
+Crédit photo : kattanapilot – CC BY-NC-ND 2.0
+Article issu de : decrypterlenergie.org
+A B Page 7 / 7
+@decrypterlenergie Décrypter l'énergie

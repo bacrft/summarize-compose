@@ -1,0 +1,33 @@
+La « révolution numérique » est une poussée significative dans les sociétés contemporaines qui consomme énormément d’énergie. 
+- Les usages du numérique ont tendance à entretenir ou amplifier les comportements consommateurs d’énergie. 
+- La croissance annoncée des usages du numérique ne se traduira pas nécessairement par une pression ingérable sur notre système électrique. Les données informatisées représentent une « révolution numérique » 
+- Les appareils terminaux en contact avec les utilisateurs : ordinateurs, tablettes, smartphones, écrans, objets connectés (box, décodeurs TV), etc. 
+- Les serveurs et appareils de stockage de données des organisations fournissant ou utilisant des services numériques (banques, administrations…), parfois regroupés dans d’immenses centres de données (data centers) 
+- Les infrastructures des réseaux permettant aux données numériques de circuler (antenne-relais, câbles, fibres, répartiteurs, etc.) Les chiffres cités dans cet article proviennent de sources différentes. Les estimations sont donc susceptibles d’avoir des variations importantes.
+- La consommation énergétique du numérique est souvent présentée comme une des grandes transformations sociétales en cours. Pour certains, elle pourrait accompagner et favoriser la transition énergétique en développant des outils et solutions permettant d’optimiser les services et systèmes énergétiques. Pour d’autres, elle est le symbole d’une société toujours plus avide d’énergie, en proie à l’ébriété énergétique. « environ la moitié sert au fonctionnement des appareils, l’autre à la ventilation et à la climatisation des salles informatiques. »
+- « Viennent ensuite les serveurs et stockages de données externalisés dans des grands centres de données spécialisés. »
+- « Des chiffres variables circulent sur leur consommation d’énergie. »
+- « Une cartographie répertoriait 156 data centers en France en 2016 » Les infrastructures des réseaux et télécommunications représentent environ 3,5 TWh/an de consommation d'électricité. 
+- Ces chiffres correspondent à une estimation faite pour l'Allemagne en 2012. L'énergie grise est l'énergie consommée pour la fabrication et l'extraction des matériaux qui composent les appareils électroniques.
+- Elle est difficile à estimer, car elle dépend de nombreux paramètres et d'hypothèses sur des activités situées majoritairement en Asie.
+- Des analyses de cycle de vie ont été réalisées sur certains équipements, mais avec des conclusions variables.
+- Les chiffres cités ici ne permettent donc que de premières approximations, faute d'études comparables sur le sujet.
+- Pour les smartphones (qui sont économes en électricité et à faible durée de vie), l'énergie grise peut représenter cinq fois plus que ce que l'appareil consommera sur sa durée de vie. Les appareils électroniques deviennent de plus en plus efficaces et mobiles, ce qui justifie d’y accorder toute l’attention nécessaire pour les rendre durables, réparables, réutilisables et recyclables.
+- Les tendances lourdes liées à la révolution numérique vont se poursuivre à un rythme soutenu. La croissance des flux de communication et de données va multiplier les consommations d’électricité. Les appareils électroniques peuvent être énergivores ou non.
+- Il y a une tendance à la miniaturisation des appareils et à leur autonomie croissante.
+- Les consommations d'énergie des appareils vont diminuer avec le temps. Les progrès en matière de climatisation des data centers vont se poursuivre et même s’intensifier.
+-Les besoins en électricité liés aux réseaux numériques vont diminuer à mesure que les capacités augmentent.
+-Le projet Grand Paris envisage une consommation d’électricité qui serait comprise entre -3 et 10 % par rapport à la consommation actuelle. Le nombre d’ordinateurs augmente de 3 % par an.
+-Le nombre de terminaux légers (tablettes, etc.) augmente de 8 % par an.
+-La consommation des appareils augmente de 3 % par an et de 2 % par an pour les ventes légers (tablettes, etc.). L’étiquetage énergie 22 place vient permettre des gains massifs
+- Les progrès et réglementations vont entraîner des gains continus, unitaire des autres
+- La consommation annuelle d’électricité des usages numériques est estimée à 25 % d’ici 2030 (+15 TWh/an)
+- Ces 15 TWh représentent 3 % de la consommation nationale actuelle Le numérique s'immisce dans le fonctionnement de tous les secteurs économiques et à ce titre a la capacité de favoriser des comportements plus sobres ou de gaspillage énergétique.
+- Les études et exercices prospectifs en ce sens sont généralement trop théoriques, insuffisamment systémiques et trop ignorants des effets rebond du numérique.
+- Si l'on regarde les potentiels suggérés par une étude française commanditée par des grandes entreprises en 2009, on constate que la majorité des évolutions correspondantes ne se sont pas réalisées. Les progrès sur l’efficacité énergétique devraient permettre d’éviter une explosion de la demande d’électricité.
+- Pour cela, il est nécessaire que les fabricants et opérateurs du secteur recourent systématiquement aux technologies les plus économes, et que la priorité soit donnée aux usages du numérique favorisant la transition énergétique. Les politiques et réglementations publiques doivent être intensifiées et mises à jour régulièrement, afin notamment de suivre les innovations rapides du secteur et l’apparition de nouveaux équipements.
+- Les consommateurs de services numériques, que nous sommes tous, ont aussi un rôle important à jouer. Des comportements plus sobres et responsables sont possibles pour éviter des flux de données inutiles : maîtriser l’utilisation des e-mails et d’Internet, gérer raisonnablement ses fichiers, éteindre ses appareils allumés ou connectés sans raison… mais aussi ne pas acheter systématiquement le dernier appareil à la mode ! La consommation énergétique des équipements informatiques en milieu professionnel est estimée à 1,5 milliards de kWh/an.
+- La filière TIC est responsable d’une part significative du potentiel de contribution du numérique à la réduction des impacts environnementaux.
+- Les données et les donneurs d’ordres des entreprises sont susceptibles de dépendre fortement des matériels et logiciels informatiques performants et durables. La croissance du secteur énergétique est inéluctablement croissante.
+- Les consommations de l'énergie domestique vont continuer à croître inexorablement.
+- La sobriété numérique est essentielle pour réduire les impacts environnementaux des technologies actuelles et futures.

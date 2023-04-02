@@ -1,0 +1,8 @@
+TEXT:
+
+{chunk}
+
+Here is a concise summary of the above text i wrote while maintaining all the essential information and reducing its size by at least a factor of 4. After I read through the text carefully and analyzed its structure and key points, I identified any unnecessary details that can be removed without affecting the overall message. Then, I condensed the material into shorter, more concise sentences and paragraphs that convey the main ideas of the text in an effective and efficient manner. I also made sure to use precise vocabulary and avoid any vague or ambiguous language.
+
+CONCISE SUMMARY:
+

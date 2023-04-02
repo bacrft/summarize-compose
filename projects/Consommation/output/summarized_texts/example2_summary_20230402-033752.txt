@@ -1,0 +1,21 @@
+Le numérique est une menace pour l'environnement. 
+-Le secteur du numérique est largement délocalisé et donc la pollution est largement déplacée. 
+-Les volumes d'électricité produite et consommée devant être équilibrés, le numérique aura aussi un impact différent selon les périodes d'usages au cours de la journée. The digital age is responsible for 4 to 6 percent of global greenhouse gas emissions (GHG).
+-The development of more energy efficient online uses will increase previous generation pollution.
+-By 2040, 8 percent of GHG emissions in France could be attributed to the digital age. 
+-A third of all industrial production is dedicated to the use of the internet; 
+-The growth of digital usage is not well managed and increases by 30 percent per year; 
+-Innovations in energy efficiency have not yet compensated for the runaway consumption trends; 
+-Only levers such as energy conservation and green technology are capable of reducing significant GHG emissions from the digital age. The Department of Loire-Atlantique has decided to equip only disadvantaged students due to the lack of need to equip households that are already equipped. 
+- A decision was made in an emergency context and guided by budgetary and environmental factors. 
+- Since more than one year, the municipality is working on optimizing its inventory taking environmental factors into account in its public procurement processes and for example, acquiring recycled plastic equipment. 
+- Connected lighting, surveillance, sensors of all kinds for city maintenance are growing as solutions aimed at increasing city management through increased data storage. 
+- However, they question little their consequences on the environment. It is technical decisions and organizational arrangements that influence the volume of data produced and stored. The smartphone rate exceeds 50% Le taux d'équipement en ordinateur est de 88%.
+-Si 88% des Français disposent d'un accès à internet, un Français sur deux dit avoir été suffisamment informé sur les impacts du numérique.
+-Le législateur a obligé les fournisseurs d'accès à internet et les opérateurs mobiles à communiquer l'empreinte carbone de nos activités numériques à compter de janvier 2022.
+-Intérêt de l’organisation locale du cycle de vie des équipements numériques du territoire : volume d’appareils, fréquence de renouvellement, existence de filières de réemploi ou recyclage. Les acteurs du numérique sont les principaux responsables de la hausse des émissions de gaz à effet de serre. Ils doivent compenser ces usages.
+- Les collectivités locales ont un rôle important dans l’accompagnement du secteur numérique, notamment en matière d’aides à l’efficacité énergétique et de planification urbaine. Les collectivités ont une expertise en la matière, et doivent donc être impliquées dans la mise en œuvre des stratégies dédiées à la maîtrise de nos usages.
+-Le  "smart" est un terme désignant l'utilisation quotidienne et massive du numérique, notamment en termes de communication, de travail et de loisirs.
+-Les stratégies territoriales doivent réserver une place plus importante aux enjeux locaux du numérique.
+-Les territoires ont besoin d'un plan national pour le numérique afin que les différents acteurs puissent s'y coordonner. Le numérique est un enjeu énergétique pour les territoires. 
+- Les datacenters, ou l’impossible frugalité numérique ?

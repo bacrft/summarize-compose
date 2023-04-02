@@ -1,0 +1,19 @@
+La « révolution numérique » est une poussée significative dans les sociétés contemporaines qui consomme énormément d’énergie.
+- Les usages du numérique ont tendance à entretenir ou amplifier les comportements consommateurs d’énergie.
+- La croissance annoncée des usages du numérique ne se traduira pas nécessairement par une pression ingérable sur notre système électrique. Les données informatisées représentent une « révolution numérique » - Les appareils terminaux en contact avec les utilisateurs : ordinateurs, tablettes, smartphones, écrans, objets connectés (box, décodeurs TV), etc.
+- Les serveurs et appareils de stockage de données des organisations fournissant ou utilisant des services numériques (banques, administrations…), parfois regroupés dans d’immenses centres de données (data centers)
+- Les infrastructures des réseaux permettant aux données numériques de circuler (antenne-relais, câbles, fibres, répartiteurs, etc.) Les chiffres cités ici correspondent à une estimation faite pour l'Allemagne en 2012.
+- Les appareils électroniques deviennent de plus en plus efficaces et mobiles, ce qui justifie d’y accorder toute l’attention nécessaire pour les rendre durables, réparables, réutilisables et recyclables.
+- Les tendances lourdes liées à la révolution numérique vont se poursuivre à un rythme soutenu.
+- La croissance des flux de communication et de données va multiplier les consommations d’électricité. The document discusses the potential for energy efficiency gains from various technological advances, and how these could help to reduce energy consumption.
+-The document predicts that by 2030, energy consumption for digital uses will be 25% of the current national consumption.
+-This would represent 3% of the current national consumption.
+-The increase in digital use is causing a shift in how we use energy across all sectors of the economy, which has the potential to lead to more efficient and less wasteful usage of energy.
+-Studies and projections on this topic are often theoretical, insufficiently systemic, and largely unaware of the rebound effects of technology.
+-If we look at what was suggested by a French study commissioned by large businesses in 2009, most of the corresponding changes have not yet been realized. Energy efficiency progress should enable us to avoid an explosion in demand for electricity.
+-This will require that manufacturers and operators of the digital sector routinely resort to low-energy technologies, and that priority be given to using technology that promotes sustainable transitions in energy use. The public and private sectors need to intensify their policies and regulations in order to keep up with the rapid changes in the digital sector. 
+- Consumers of digital services have an important role to play. Responsible use of technology can help avoid unnecessary data flows: managing email and internet usage, conserving files wisely, turning off devices when not in use… but also not buying new technology every time it comes out! Energy consumption for electronic equipment used in professional settings is estimated at 1.5 billion kWh/year. 
+- The TIC sector is a significant contributor to environmental reduction potential through its role in innovation. 
+- Data and orders from businesses are highly dependent on effective and durable information technology systems. The growth of the energy sector is inevitable given current trends. 
+- Domestic energy consumption will continue to grow unabated. 
+- Digital sobriety is essential for reducing environmental impacts from present and future technologies.

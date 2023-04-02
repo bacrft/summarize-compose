@@ -1,0 +1,128 @@
+The president of the academy, Olivier Appert, is a member of the Académie des technologies. 
+-Richard Lavergne, co-president, Denis Randet, co-president are also members of the academy. 
+-The document was written by members of the group working on "Alais," which is a project led by Jean-Christophe Air Liquide. 
+-The work is supported financially by souscriptors to FutuRIS: AI CARNOT, AIR LIQUIDE, AMPIRIC - AIX-MARSEILLE UNIVERSITE, ANR, BERGER-LEVRAULT, BOUYGUES, BRGM, CEA, CNRS, CPU, EDF , ENGIE , FACEBOOK , GE HAELTHCARE , INSERM , INSTITUT MINES TELECOM , INRIA , INSTITUT PASTEUR , IRIS SERVIER , MINISTERE DE L’EDUCATION NATIONALE ET DE LA JEUNESSE , MINISTERE DE L’ENSEIGNEMENT SUPERIEUR , DE LA RECHERCHE ET DE L’INNOVATION , NOKIA , REGION PAYS DE LA LOIRE,, SHNEIDER ELECTRIC,, SNCF,, TOTAL ENERGIES The document discusses the issue of digital transformation and how it can help reduce energy consumption. 
+-The document notes that although electric consumption is still a lever for fighting climate change, it is not a blocking point.
+-The document also discusses the importance of analyzing the digital footprint and how it can help improve performance. The digital world is being designed by manufacturers who are skilled in cholesterol. 
+- The group has focused on accessing - while managing their confidential information consumption - powerful supercomputers capable of modeling intelligence problems, which are unquestionable. 
+- This year, the group has focused on accessing - while managing their confidential information consumption - powerful supercomputers capable of modeling intelligence problems, which are unquestionable. 
+- 6 This is a revolution of value chains. Our work gives an idea for some industrial sectors, but it will be true for all industries. This revolution can open opportunities, but risks giving control of our industry to countries that will master the new interaction between electronics and products. France and Europe face a double problem: Managing the entire chain of digital technology and That application sectors have competent personnel to design - in conjunction with European electronic industry - the digital technology used in product conception, function and maintenance. According to a report from the Senate, digital technology had an energy footprint of 15 Mt in 2019 - or 2% of France's total carbon footprint - with terminals representing 81% of this figure.
+- There are voluntarist scenarios proposed by, for example, the ADEME or the Ministry of Ecological Transition.
+- It depends on several factors, such as the choices made for 5G coverage, the development of Internet of Things and edge computing.
+- The General Economic Council has made a 2030 projection, extrapolating ARCEP data.
+- In 2030, global reductions are expected but consumption of data centers and networks is increasing significantly.
+- One particular issue is video resolution which would increase consumption by 10% if it transitioned to 4K. However, energy consumption measures are indirect because information technologies have not been equipped to be measured directly. 
+- Another issue is equipment manufacturing which accounts for 40% of the overall impact of digital technology today. Unfortunately there are few in depth studies on this topic, if any at all other than an academic study "Comme ils sont fabriqués en grande partie hors d’Europe, nous n’avons guère de moyens d’action directs." "Une autre partie concerne la limitation des ressources consommées grâce à une loi sur l’économie circulaire."
+- "Le point à relever est que les données précises concernant les équipements et leur recyclage semblent manquer dans le domaine du numérique."
+- The document discusses the increasing traffic and energy consumption, the lack of reliable data on digital energy use due to an evolving methodology, and the large overall impact of digital technologies.
+-The manufacture of electronic equipment represents today 40% of the global impact of digital technologies. 
+-There is a great divergence in projections because different estimates are made about productivity gains. Landauer's minimal energy required to erase one bit of information stands at kB TLn2 where kB is Boltzmann's constant and T temperature. 
+- The physical system considered is the spintronic or electronic spin control, which offers information control on the spin of electron (by applying a magnetic field) and reading information through the charge current of electron. 
+- Physically, since the advent of CMOS technology and microprocessor (1960), progress made in integration transistor and increase in gravure resolution has improved processor performance to such an extent that: 
+- Between 1971 and 2001, transistor density doubled every 1.96 years; 
+- Between 1946 and 2009, calculations per Joule spent doubled every 1.57 years. As a result, computers have become smaller while becoming faster and more powerful than ever before, but the Landauer paradigm which sets a minimum energy required to erase an elementary information (2.80 zJ at ambient temperature) constitutes a physical limit to Moore’s law. 
+- In practice, the first signs of exhaustion of Moore's law manifest themselves in the middle of the 2000s - 2010. To push these limits, other paradigms need to be developed Physical entropy is associated with fluctuations in a system macroscopically to reach equiprobability of its microstates; heat generated is related to variations in these fluctuations when the system evolves and irreversibility is due to an imposed evolution over a finite time period; 
+- Information entropy is associated with loss of information; half of losses are due to irreversibility (erasure of memory entries), while the other half is due to dissipation of circuits in commutation among transistors polarized with voltage levels spaced at intervals. In this context, one could envisage: 
+- slowing down processors by polarizing them with slow ramping voltages; 
+- provided that enough memory is available, retaining intermediate steps during computation so that "reversible rebooting" can be performed and energy associated with erasing mechanisms can be recovered. To achieve this result within a comparable time frame, parallelization would be adopted. The document discusses the challenges of building smaller transistors and how this will impact future technology. 
+-One of the main challenges is that as transistors get smaller, they become more power hungry and difficult to integrate. 
+-Another challenge is that as transistors get smaller, it becomes harder to control their behavior. The document discusses the advantages of quantum computing over classical computing. 
+-One advantage is that it takes fewer steps to get from a phone number's digits to a name. 
+-Another advantage is that "portals" are reversible and transfer only a recoverable energy. 
+-Oracle allows subscribers to change their sign today. The number of integrated circuits per processor has been increasing steadily over time, but it is now capped at 4-5 GHz.
+-The amount of software that can be processed simultaneously decreases when specialized processors are used.
+-Parallel processing wastes up to 90% of existing software. Traffic, or throughput, expressed in simultaneous messages.This is related to the calculation method and the organization of the system. Operations that require a large power cannot be handled on regular computers, at least not without some kind of group calculation: 
+-a part of traffic is the communication between these computers and terminals, phones, communication devices...; 
+-another part is the consequence of using an distributed algorithm like blockchain, which wants to replace central validation with user validation; 
+-another part is streaming video. It grows with the definition of images. Is 4K enough? 16INFRASTRUCTURES 3. Latency, or time it takes for one message to be transmitted from one point to another. 7. Architectures, compromises between centralized and decentralized information management. 4. Energy consumption The compromise results in two kinds of choices: architectural ones with enclosure and network deployment • manufacturing and recycling of hardware The two are difficult to measure: sensors-actuators, especially in self-driving cars; 
+-The first because complete cycles of cars with autonomous driving; for these, the edge is hard to track, given that the bulk of production is in Asia, with an emission output strong CO; 
+-However, models of artificial intelligence must be powered by a strongly emitting CO source; 
+-Operational dependence on configurations of calculation varies constantly and without detectable change. This is a real research topic. The Gaia-X system is a way to label computers and other devices so that people can understand how much energy they are using.
+-The cost of passing their base would be too expensive, but it is the big European industrialists who will be the guarantors of our independence.
+-In conclusion, the FOG computing brings great progress in telecommunications (IoTs, connected cars) which allows to specialize support. Furthermore, the complexity of the computer network has increased. The current architecture is in transition: we observe a challenge to put in place tools to measure this intermediate layer, FOG for understanding energy consumption of computing (million processors with an entire system). We will have to experiment and push local networks, connected with data centers, connection of measurement tools. And finally, smart devices manage connections in the control algorithms for SDN network with mobile devices, connected objects, sensors etc.). Traditional telcos are facing competition from GAFA software supporting applications (mobile, domotics, security and surveillance, traffic management automotive), which at the end of the network are 2-2. 
+-FOG specializes in two areas: security and rapid processing - or preprocessing - can be carried out within edge computers close to where data is created. 
+-Each FOG is an ensemble of different clients (who represent who differ especially by their location in terms of application production chains), as well as various purposes for which data may be used. 
+-The document discusses the treatment of a system, which should be remonted towards another part of the services. This structure also has a centralized cloud. The use of artificial intelligence to improve performance in industrial processes is discussed. 
+-One path is the specialization of processors, and the other is parallel computing. Parallelism can be implemented at different levels: 
+-Processors 
+-Integrated circuits that can group several processors (called "sockets" in American terminology) 
+-Servers where multiple "sockets" can coexist 
+-Large systems like supercomputers or cloud servers, which contain thousands of servers in local network The goal of the document is to find an alternative method for reducing energy consumption. 
+-There are many environmental and social constraints that will need to be taken into account when designing a system. 
+-One constraint that the document discusses is the availability of a renewable source of low-carbon fuel. 
+-Other constraints that will need to be taken into account include peak power demand or industrial processes. Heavy rail infrastructure will be constrained by current fuels due to their high emissions levels.
+-A multi-vectorial approach is needed to ensure decarbonization while still meeting societal acceptance for energy sobriety.
+-Sectoral integration (ISE) is key to facilitating the penetration of renewable electricity into our systemwide energy mix.
+-The three pillars of IAIS are: local energy systems, "circular" energy systems with an emphasis on energy efficiency at the center, and increased interconnection and use of digital technologies.
+-One of the main needs is for more efficient use of electricity, especially in sectors that can benefit from it (e.g. heating and cooling, industrial processes or data centers).
+-Another need is for increased electrification in sectors that are suited to it (such as transportation). The document discusses the importance of information technology in the energy sector, and how cybersecurity is essential.
+-The increased spending on cybersecurity measures comes with additional costs, especially for industrial cybersecurity.
+-Collaborations between sectors are necessary in order to manage the cyberthreat effectively.
+-It is important to have a approach to control and optimize the interdependencies.
+-A harmonized regulatory framework in the EU; the NIS 2.0 are steps in the right direction.
+-Cybersecurity risks associated with an intense digital network and real-time are necessary to be managed.
+-Today, due to the great industrial diversity not yet touched by cyber security, it is only too often regulatory transcripts in academic institutions. Member states, the EU seeks to put in place regulatory constraints towards industrial companies. An important investment in theoretical and practical training is necessary The document discusses the levels of architecture and the last level of software embedded closely with the targeted application.
+-Today, in order to address the five-year problem, it is necessary to have an approach to calculation and energy consumption for systems on these three levels.
+-The first level, which is short-term, can be described as neuromorphic computation. STMicroelectronics is currently working on 28 nanometer chips; CEA-LETI is preparing the 10 nanometer cloud. The issue is to be able to mount intelligent objects on a market that will be available in 2025-2026.
+-A related object linked with IoT technology. In terms of performance of calculations and energy efficiency, we are still far from bee intelligence’s capabilities, and much work needs to be done in this area. Processor traffic on the internet will continue to grow
+-Today, we can use memory from the 5G, which will allow for multiple IoTs.
+-Non-volatile, coherent with the technology information exchange could reach 25 CMOS.
+-Several comparison criteria are at 50 ZB in 2025 (1 ZB = 1021 octets), and 500 ZB defined, as programming power, by 2030. Commande requiert beaucoup de communication avec des informations locales (fréquence ultra-basse).
+-Les microcontrôlesurs doivent être dotés de systèmes de communication intégrés et de moyens de sécurité embarqués.
+-Kalray construit des processeurs manycores basés un traitement partiellement analogique et non sur des cores programmables non spécialisés.
+-Graphiques sont capables d'affronter EPI (European Processor Initiative).
+-Le second information est plus rapidement et avec moins d'étapes que la première qui vise les calculs complexes, consommant plus que les traitements traditionnels du CPU.
+-Directement dans le memory. Cela implique donner une accélération feasible pour les traitements locaux qui requièrent des applications software.
+-Kalray doit être intégré dans les microprocesseurs, puis au delà des limites actuelles du technologie, Kalray souhaite offrir une alternative à gpgpu et passer son réseau neuronal associé, avant de dépasser les limites actuelles du technologie.
+-L'objectif ultime est un système autonome powered par lui-même. La discussion évoque les effets négatifs du PPA (Power Purchase Agreement), en ce sens qu'ils peuvent entraîner une perte d'autonomie pour les systèmes (en termes climatiques). Une manière de garantir une fourniture d'electricité consiste à utiliser des sources renouvelables (avec en retour un apport à un autre rapport), mais la Commission européenne avertit que ce marché pourrait peser jusqu'à 6% du PIB durant la décennie (avec, machiniquement, une nécessité forte d'investissements malgrée ces différents leviers). Cela veut dire que le débat est complexe, avec les data centers mettant fortement pression sur divers systèmes et l'installation des équipements (et le taux croissant d’utilisation électrique et l’augmentation du coût de l’infrastructure) étant vu comme des frais additionnels aux infrastructures The document has a list of signatories, including mega-flops.
+-The Atos Sequana supercomputer, the old data centers, is listed as having 44 million giga flops for zones warm by 1.4 degrees Celsius.
+-This data center is older than most and may not be able to handle the demands of newer data centers. The goal of the document is to have 100% of energy used be carbon-free by 2030. 
+-Each component of the document has freedom to choose its own energy mix, and already produces extreme heat. 
+-The document discusses genetic health, quantum computing, and the potential risks to drug design. 
+-Beyond just resisting future quantum attacks, there are other goals that the document mentions, such as increasing electricity access for supercomputers. The goal of the European Processor Initiative is to give Europe the capability to create its own processors. 
+-By 2030, it aims to have reduced emissions by between 65% and 70%. 
+-More than 50% of private sector purchases involve processors that are available today. And within the telecoms sector, power efficiency is a key focus. The purchase agreements for the new data centers are in 2023. They will include elements of security and aspects of the digital world. 
+-The analysts expect that the training process will be effectively handled, taking into account these investments for artificial intelligence; however, they do not take into account the impact on carbon emissions or energy efficiency. 
+-Energy demand is much higher than projections, unless massive assistance is given. All of the sector is moving towards being carbon-neutral. 
+-Today, Orange's data centers represent 9% of telecommunications sector consumption total. Orange consumes nearly 5.3 trillion kWh, 2 billion kWh of which comes from France. 85% of this consumption corresponds to network and information processing activities. Data centers represent 9% of telecommunications sector’s total consumption The document discusses the benefits of virtual power plants, which allow for the development of skills and expertise, and the deployment of a robust technological infrastructure through virtual reality.
+-The blockchain is used to trace the origin of data around energy, with the aim of developing systems that are ethical, cyber secure, and able to handle intermittent production.
+-In terms of Europe-wide impact, taking into account new uses and decentralization of production, digital technology has made a significant contribution so far.
+-First and foremost, digital technology has helped speed up industrial processes (supervision, maintenance, optimization of network performance), but it has also created an opportunity for EDF to become a major player in distributing electricity across an extended customer base; this was crucial during the crisis. The document discusses the effects of the digital world on data reference production and how to improve security and efficiency. 
+-The document also discusses how to better manage energy consumption and distribution in a digital world. 
+-It is important to have accurate data when using artificial intelligence or developing methods to account for network elements, which can be difficult. The network manager strives to maintain a stable flow of energy while reducing the amount of ENRs.
+-The goal is to save €7 billion by 2025 by managing the network more efficiently.
+-Reducing ENR volumes will require better management of the transport network. Traditional investments include connections with industrial companies and euros on infrastructure investments. 
+-The transport electric power behaves like an infrastructure with three pillars: voltage, current on each line and global frequency of the network. 
+-Another solution is to change the architecture of power plants, maximum capacities of batteries, piloting system electric grid and mass storage. 
+-Analyses the state of the network in real time; proposes different actions. The document discusses the pros and cons of automating transportation. 
+-The document states that if we were to automate transportation in the same way as it is done today, with a fleet divided by 10, a number of vehicles that travel divided by 3, and a number of vehicles parked divided by 15, then Transportation would be reduced. 
+-However, because of the prospect of autonomous vehicles, consumption for cars has decreased by 6.5% over the past decade. For a longer period of 10 years, as shown in the Pichereau report (1990-2010), corresponding figures are - 17%. 
+-The problem is to be able to guarantee an absence on average consumption. Diésélisation leads to accidents. The document discusses the impact of emissions standards on new vehicles, the cost of artificial intelligence, and the noise level of autonomous cars.
+- The strenghening of emissions standards will require a significant investment by automakers.
+- The development of a safe artificial intelligence is not without its costs, but it should reduce the number of kilometers traveled by car. Airbus uses powerful computers among data from automated vehicles in order to improve efficiency and reduce emissions.
+-The increasing number of electric motors in aircraft controllers requires more finely tuned control systems.
+-Data analysis allows Airbus to offer predictive maintenance services that are increasingly important in its business.
+-This is the platform Skyways used by many air carriers.
+-Airbus’s power is sufficient so that it was able to keep control over this platform, which it developed with Amazon.
+-The impact that digital technologies have on reducing aviation emissions is not insignificant, especially when optimizing flight trajectories: one key way to reduce aviation emissions is to use finely modeled meteorological data for maximum benefit from wind speeds. The document discusses ways to reduce energy consumption, with the aim of improving design based on real-time data. 
+-The document also discusses the benefits of geothermal energy, which has some limitations in terms of size and seismic use. 
+-One example discussed is a service urban platform that can be managed remotely using communication meters. 
+-Lastly, the document discusses how buildings can be integrated into neighborhoods in order to improve overall city design. 14 interconnected systems were not standardized by the same protocol
+- Population mistrust of energy monitoring is 50%
+- Renewable heating reached 85% of needs compared to 50% in Paris
+- Information retrieval became possible even at individual level with consent contracts 
+- Geothermal works well too, but globalization does not function as perfectly as planned yet 
+- Self consumption does not work as well in this case The document discusses the impact of digital technology on energy consumption. 
+-Manufacturing has become increasingly reliant on digital technology, which has led to increased energy consumption. 
+-The consequences of this are that manufacturers must find ways to reduce their energy consumption, and recycle used electronic equipment. 
+-This is a radical transformation that will require companies to change their practices in order to conserve resources and reduce emissions. Based on closer ties with suppliers and joint development of manufacturing facilities in Europe, France is currently the only European country that can claim global leadership in integrated circuits and sensors technology. 
+-EuroHPC is designed to maintain Europe's leading position in circuit integration technology and sensor arrays while expanding its reach into data processing at the local edge (edge computing). This will encompass consideration of energy consumption within its overall goal of reducing reliance on imported products by 30%. 
+-Policymakers are seeking new skills for the entire supply chain, from ST to Atos to Kalray and OVH. This gives Airbus the responsibility for leading a common position in aircraft construction. 
+-The event of the moment is designing airplanes that take into account how people use telecommunications today. The gains in time and efficiency when transitioning to 5G will open up a whole new internet of objects. However, the cost of design, as well as energy efficiency, will be significant increases over current levels. The document discusses the problems of touch affecting technology, standardization, and data ownership.
+-One of the major operators and their relationships with the energy issue is to conceive a government-wide energy grid, market rules, and neighborhood demand: reducing research by 60% could be achieved.
+-And self-consumption in research could be much more effective than individual consumption. There is a lack of exploration between algorithms and their relations to each other, cyber-security being an important area. 
+- To manage the increasing diversity of algorithms, a global understanding is needed. This knowledge will allow specialized operators to emerge. 
+- The future path is that of specialised operators, so close interaction between hardware manufacturers and component suppliers is necessary. France should take advantage of this new technological era. 
+- Invest in research and development on new information technology technologies; 
+- Develop programmers who are well-equipped to work closely with designers of hardware and software, and able to maintain the digital heritage; 
+- Pursue brain networks, neuromorphic computing, and artificial intelligence (AI), while not neglecting socio-economic support.

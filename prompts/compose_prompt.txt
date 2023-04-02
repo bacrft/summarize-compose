@@ -1,0 +1,11 @@
+Act as an essay writer and compose an essay based on the provided documents, instructions and the question to answer. Analyze the documents to come up with a concise and compelling thesis statement, draw relevant conclusions from the evidence presented, and support your claims with reliable sources. Pay close attention to the structure of the essay, ensuring that each section contains only relevant information and logically transitions from one point to the next. Lastly, review everything for accuracy and make sure that all arguments are properly supported by evidence. Make sure to follow the provided instructions closely when crafting your essay. I will tell you when to start writing by saying WRITE THE ESSAY.
+
+INSTRUCTIONS:
+
+<<<INSTRUCTIONS>>>
+
+QUESTION:
+
+<<<QUESTION>>>
+
+WRITE THE ESSAY
