@@ -1,4 +1,3 @@
-import math
 import time
 from typing import List
 from dataclasses import dataclass
@@ -35,7 +34,7 @@ def split_text_into_chunks(text: str, chunk_size: int) -> List[str]:
     return chunks
 
 
-def summarize_text(text: str, config: SummarizationConfig, pdf_file_name: str) -> str:
+def summarize_text(text: str, config: SummarizationConfig, pdf_file_name: str, size_reduction_factor: float) -> str:
     """
     Summarize the input text using the given summarization configuration.
 
@@ -44,6 +43,8 @@ def summarize_text(text: str, config: SummarizationConfig, pdf_file_name: str) -
     :type text: str
     :param config: The summarization configuration.
     :type config: SummarizationConfig
+    :param size_reduction_factor: The factor by which the text should be reduced.
+    :type size_reduction_factor: float
     :return: The summarized text.
     :rtype: str
     """
@@ -52,7 +53,6 @@ def summarize_text(text: str, config: SummarizationConfig, pdf_file_name: str) -
 
     print("length of text to summarize: {}".format(len(text)))
     # reduce the text to one-quarter of its original size
-    size_reduction_factor = 0.20
     size_summarized_text = len(text)
     threshold = len(text) * size_reduction_factor
     i = 0

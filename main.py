@@ -70,6 +70,8 @@ def summarize_documents(project_name: str):
     """
     openai_apikey = open("openai_apikey.txt", "r").read()
 
+    size_reduction_factor = 0.2
+
     # Get the user input configuration
     userInput = UserInputConfig(
         project_name=project_name,
@@ -104,7 +106,8 @@ def summarize_documents(project_name: str):
                           f"projects/{userInput.project_name}/output/extracted_texts"
                           f"/{pdf_file_name}_{time_str}.txt")
 
-        summarized_text = summarize_text(extracted_text, summarizationConfig, pdf_file_name)
+        summarized_text = summarize_text(extracted_text, summarizationConfig, pdf_file_name,
+                                         size_reduction_factor=size_reduction_factor)
         save_text_to_file(summarized_text,
                           f"projects/{userInput.project_name}/output/summarized_texts"
                           f"/{pdf_file_name}_summary_{time_str}.txt")

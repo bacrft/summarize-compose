@@ -4,7 +4,7 @@ This project extracts text from PDF files and summarizes the extracted text usin
 
 ## Requirements
 
-- Python 3.7 or higher
+- Python 3.10 or higher
 - `pdfplumber` library for PDF text extraction
 - `openai` library for interacting with the OpenAI Completion API
 
@@ -13,7 +13,7 @@ This project extracts text from PDF files and summarizes the extracted text usin
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/samimhidia1/pdf_text_extractor_and_summarizer.git
+    git clone https://github.com/samimhidia1/summarize-compose.git
     ```
    
 2. Install the required libraries:
@@ -21,24 +21,37 @@ This project extracts text from PDF files and summarizes the extracted text usin
     ```bash
     pip install -r requirements.txt
     ```
-3. Set your OpenAI API key as an environment variable or directly in the `main.py` file.
+3. Set your OpenAI API key as an environment variable or directly in the `openai_apikey.txt` file.
 
 ## Usage
 
-1. Place your input PDF files in the `input_pdfs` folder.
-
-2. Modify the `main.py` script to include the desired input PDF file and the number of recursive loops for summarization.
-
-3. Run the `main.py` script:
+1. run the `main.py` file:
 
     ```bash
     python main.py
     ```
 
-4. Check the `output/extracted_texts` folder for the extracted text files and the `output/summarized_texts` folder for the summarized text files.
+2. Enter the name of an existing project or create a new one by entering a new name.
+
+3. Add the PDF files to the project input folder.
+
+4. Choose summarize by pressing 's' and Enter.
+
+5. Once the summarization is complete, the summarized text will be saved in the project output folder.
+
+6. Rerun the main.py file to compose an essay from the summarized text.
+
+7. Enter the name of the summarized project which you want to compose an essay from.
+
+8. Choose compose by pressing 'c' and Enter.
+
+9. Enter the question of the essay.
+
+10. Enter the instructions of the essay.
 
 ## Customization
 
 - Modify the `APIRequestConfig` in the `main.py` file to change the prompt or other API parameters.
 - Modify the `SummarizationConfig` in the `main.py` file to change the chunk size for text summarization.
-
+- Modify the chunk size in the `main` file to change the chunk size for text summarization.
+- Modify the 
