@@ -1,6 +1,0 @@
-venv
-.idea/.gitignore
-openai_apikey.txt
-
-/.idea/
-/venv/
