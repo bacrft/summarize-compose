@@ -54,4 +54,21 @@ This project extracts text from PDF files and summarizes the extracted text usin
 - Modify the `APIRequestConfig` in the `main.py` file to change the prompt or other API parameters.
 - Modify the `SummarizationConfig` in the `main.py` file to change the chunk size for text summarization.
 - Modify the chunk size in the `main` file to change the chunk size for text summarization.
-- Modify the 
+- Modify the size_reduction_factor in the `main` file to change the size reduction factor for text summarization.
+- Modify the `EssayCompositionConfig` in the `main.py` file to change the prompt or other API parameters.
+- Modify the content in the main.py at line 156 to change the prompt for essay composition.
+
+## TODO
+
+- [ ] Add support for other file formats.
+- [ ] Add support for other summarization and composition APIs.
+- [ ] Add support for other summarization and composition models.
+- [ ] Add other summarization and composition prompts.
+- [ ] Add semantic search to find the most relevant text from summarized text to choose as the prompt for essay composition without going over the API character limit.
+- [ ] Add support for other languages.
+- [ ] Add support for pinecone search.
+- [ ] Add support for langchain to ask questions in natural language through a set of documents
+- [ ] Add prompt engineering techniques to improve the quality of the essay composition.
+- [ ] Add support for Hugging Face API transformers to avoid paying for the OpenAI API.
+- [ ] Make a better Documentation.
+- 
